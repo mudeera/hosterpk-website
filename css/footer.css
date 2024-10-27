@@ -1,0 +1,154 @@
+
+
+
+.footer {
+    background-color: rgb(9 99 231);
+    padding: 34px 0;
+}
+.footer .footer-first-logo {
+    max-width: 25%;
+    flex: 25%;
+}
+.footer .footer-section-wrapper {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* gap: 11px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footer-logo {
+    max-width: 180px;
+    margin-bottom: 30px;
+}
+.footer .footer--list-items {
+    padding: unset;
+    margin: 0 -10px;
+}
+.footer .footer-link-items {
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.footer .footer--items {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.footer .footer-titles {
+    color: #fff;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+.footer .footer-last-icons--wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .footer-para {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.footer .f-cal-link {
+    color: white;
+    font-size: 15px;
+}
+.footer .f--phone-num {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.footer .f--icons-wrap {
+    display: flex;
+    align-items: center;
+}
+.footer .footer_icon {
+    color: white;
+    font-size: 13px;
+}
+.footer .footer-icon-icon-wrap {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+}
+
+.footer .footer-facbook-icon {
+    padding: 0 10px;
+    height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    height: 37px;
+    width: 37px;
+    font-size: 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: #43abfc;
+}
+.footer .footer-facbook-icon:not(:last-child) {
+    margin-right: 10px;
+}
+.footer .f_last_privacy-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .f_last_lists:not(:last-child) {
+    border-right: 1px solid #fff;
+    margin-right: 8px;
+    padding-right: 10px;
+}
+.footer .f--last-copyright{
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+}
+.footer .f_last_itemss {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-decoration: underline;
+}
+.footer .footer-last--copy-right-message {
+    border-top: 1px solid #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer .wrapper--footer {
+    margin-bottom: 60px;
+}
+.footer select#cars {
+    border: navajowhite;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.footer-selector {
+    margin-bottom: 20px;
+}
+
+
+
+

@@ -1,0 +1,643 @@
+
+
+.top-header-menu {
+    background: #007aff;
+    padding: 15px 0;
+    box-shadow: 0 23px 26px rgba(0, 0, 0, 0.25), 0 14px 23px rgba(0, 0, 0, 0.22);
+}
+.top-header-menu .top_header-menu-wrap.d-flex {
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.top-header-menu .top-h-flex-text {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
+.top-header-menu .top--text1 {
+    color: #fff;
+}
+.top-header-menu .top--text1.d-flex {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.top-header-menu .top-phone-icon {
+    margin-right: 10px;
+}
+.top-header-menu .top-pre-title {
+    font-family: 'Commissioner';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+/* ---------------------------- */
+
+.main-header {
+    background: #007aff;
+    padding: 20px 0;
+    box-shadow: 0 11px 24px rgba(0, 0, 0, 0.25), 0 8px 8px rgba(0, 0, 0, 0.22);
+}
+.main-header .main-header-menu-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+h2.banner-content-titles {
+    color: #fff;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+span.banner-p1 {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-header .header--items {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.second--header .cal-text {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-header .main_header-menu-list {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+}
+
+.main-header .main-header-menu-list-items:hover {
+   background-color: #007aff;
+}
+.main-header .header--items {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-header .login-button {
+    width: 170px;
+    height: 40px;
+    background: #ff7f50;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main-header .main-header-menu-list-items {
+    padding: 0 10px;
+    position: relative;
+}
+.main-header .main-header-menu-list-items:hover .drop-down--content  {
+   display: block;
+   visibility: visible;
+    opacity: 1;
+}
+.main-header .login-btn {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-header .drop-down--content {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    max-width: 1138px;
+    margin: 0 auto;
+    min-width: 1138px;
+    transition: all 0.12s ease-in-out;
+}
+.main-header .drop-titles {
+    font-size: 18px;
+}
+.main-header .drop-down-list-items {
+    padding: unset;
+}
+.main-header .drop-title {
+    font-size: 14px;
+}
+.main-header .dropdown--icons {
+    max-width: 40px;
+    margin-right: 10px;
+}
+.main-header .drop-down-link {
+    display: flex;
+    color: #000;
+}
+.main-header .drop-down-link:hover {
+    color: blue;
+}
+.main-header .drop-down_section {
+    max-width: 33.33%;
+    flex: 33.33%;
+}
+/* --------------.second--header ---------------- */
+.second--header {
+    background: #2582e7;
+    padding: 20px 0;
+}
+.second--header .h-logo {
+    max-width: 180px;
+}
+.second--header .header-with-logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second--header .header-menu-right-text.d-flex {
+    align-items: center;
+}
+.second--header .header-menu-right-text:not(:last-child) {
+    margin-right: 38px;
+}
+.second--header .cal-text {
+    color: #fff;
+}
+.second--header .cal-icon {
+    margin-right: 14px;
+    font-size: 24px;
+}
+
+
+
+/* ----------------banner----------------- */
+.hero-banner {
+    background: #007aff;
+    position: relative;
+    margin-bottom: 70px;
+    padding: 40px 0;
+}
+.hero-banner .banner-image {
+    background-image: url('../image/index/b-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero-banner .b-icons {
+    color: #fff;
+    font-size: 22px;
+}
+.hero-banner .banner-button {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 12px 15px;
+    background: rgb(225 108 15);
+    cursor: pointer;
+}
+.hero-banner .background-color--btn {
+    background-color: #fff;
+}
+.hero-banner .banner-button:not(:last-child) {
+    margin-right: 10px;
+}
+.hero-banner .pp {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.hero-banner .pp1 {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.hero-banner .banner-btn {
+    display: flex;
+    align-items: center;
+}
+.hero-banner .banner-content-para {
+    margin-bottom: 10px;
+}
+.hero-banner .text-color {
+    color: #000;
+}
+/* ---------------main-section-------------------- */
+.main-section {
+    margin-bottom: 70px;
+}
+.main-section .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.main-section .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.main-section .main-heaading-pree-titles::before, .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+   width: 25px;
+   height: 2px;
+   background-color: #ff7f50;
+}
+.main-section .main-sect-mian-para {
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-section .heading--main--title {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.main-section .card--title {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+.main-section .card-yar {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.6;
+    opacity: 0.5;
+}
+.main-section .card-prices {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-right: 6px;
+}
+.main-section .card-text {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-section .main--card_button {
+    background-color: #c1c8cf;
+    padding: 16px 10px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+.main-section .main--card_button:hover {
+    background-color: #3d91e5;
+    transition: all 0.8s ease-in-out;
+}
+/* .main-section .main--card_button:not(:last-child) {
+   margin-right: 10px;
+} */
+.main-section .card_btn_text {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.card_svg_content_wrap {
+    display: flex;
+    align-items: center;
+}
+.main-section .main-section-main-card{
+    display: flex;
+    align-items: center;
+}
+.main-section .card--price {
+    display: flex;
+    margin-bottom: 12px;
+}
+.main-section .card--list-link-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.main-section .card-svg {
+    max-width: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 0.5;
+    margin-bottom: 21px;
+}
+.main-section .card-body--content {
+    max-width: 25%;
+    flex: 25%;
+    background-color: #fff;
+    /* background-image: linear-gradient(115deg, #fc00ff, #00dbde); */
+    border: 1px solid #edede7;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 18px;
+}
+.main-section .card-body--content:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    animation: 3s spin linear infinite;
+}
+@keyframes spin {
+    from {
+      --angle: 0deg;
+    }
+    to {
+      --angle: 360deg;
+    }
+  }
+.main-section .card-icon {
+    margin-right: 8px;
+}
+.main-section .card-list-items {
+    margin-bottom: 20px;
+}
+/* ---------------main-second--section-------------------- */
+.main-second--section {
+    margin-bottom: 70px;
+}
+.main-second--section .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.main-second--section .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.main-second--section .main-heaading-pree-titles::before, .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+   width: 25px;
+   height: 2px;
+   background-color: #ff7f50;
+}
+.main-second--section .main-sect-mian-para {
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-second--section .heading--main--title {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.main-second--section .card--title {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+.main-second--section .card-yar {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.6;
+    opacity: 0.5;
+}
+.main-second--section .card-prices {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-right: 6px;
+}
+.main-second--section .card-text {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-second--section .main--card_button {
+    background-color: #0000ff;
+    padding: 14px 9px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 180px;
+}
+.main-second--section .main--card_button:hover {
+    background-color: #b1c2d3;
+    transition: all 0.5s ease-in-out;
+}
+/* .main-section .main--card_button:not(:last-child) {
+   margin-right: 10px;
+} */
+.main-second--section .card_btn_text {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.main-second--section .main-section-main-card{
+    display: flex;
+    align-items: center;
+}
+.main-second--section .card--price {
+    display: flex;
+    margin-bottom: 12px;
+}
+.main-second--section .card--list-link-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.main-second--section .card-svg {
+    max-width: 50px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 0.5;
+    margin-bottom: 21px;
+    margin-right: 14px;
+}
+.main-second--section .card-body--content {
+    max-width: 33.33%;
+    flex: 33.33%;
+    background-color: #fff;
+    /* background-image: linear-gradient(115deg, #fc00ff, #00dbde); */
+    border: 1px solid #edede7;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 18px;
+}
+.main-second--section .card-body--content:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    animation: 3s spin linear infinite;
+}
+@keyframes spin {
+    from {
+      --angle: 0deg;
+    }
+    to {
+      --angle: 360deg;
+    }
+  }
+.main-second--section .card-icon {
+    margin-right: 8px;
+}
+.main-second--section .card-list-items {
+    margin-bottom: 20px;
+}
+
+
+/* -----------------section-services---------------- */
+.section-services {
+    margin-bottom: 70px;
+}
+.section-services .services-alpha-beta-wrap {
+    display: flex;
+    padding: 0 10px;
+}
+.section-services .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.section-services .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.section-services .heading--main--title {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.section-services .main-sect-mian-para {
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.section-services .services-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #a9a9a9;
+    padding: 18px 14px;
+    border-radius: 9px;
+}
+.section-services .services-button:not(:last-child) {
+   margin-bottom: 20px;
+}
+.section-services .beta-content {
+    display: flex;
+}
+.section-services .beta-icon {
+    margin-right: 12px;
+    color: #0000ff;
+}
+.section-services .server-alpha {
+    max-width: 300px;
+    flex: 300px;
+    margin-right: 40px;
+}
+.section-services .services-beta {
+    flex: 1;
+    border: 1px solid #a9a9a9;
+    padding: 30px;
+    border-radius: 16px;
+}
+.section-services .services-icons {
+    margin-right: 12px;
+    max-width: 47px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0000ff;
+}
+.section-services .services-heading {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+.section-services .beta-para {
+    font-family: 'Commissioner';
+    color: #b1abab;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.section-services .servi-text {
+    font-family: 'Commissioner';
+    color: #b1abab;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+
+
+
