@@ -28,6 +28,27 @@
 .footer .footer-link-items {
     margin-bottom: 10px;
     padding: 0 10px;
+    position: relative;
+}
+.footer .footer-link-items::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(-49deg);
+    position: absolute;
+    top: 3px;
+    left: -10px;
+    /* content: '▶';
+    font-size: 12px;
+    margin-right: 8px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0; */
 }
 .footer .footer--items {
     color: #fff;
@@ -60,6 +81,7 @@
 .footer .f-cal-link {
     color: white;
     font-size: 15px;
+    margin-right: 10px;
 }
 .footer .f--phone-num {
     color: #fff;
