@@ -44,27 +44,21 @@
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-
-
-
-
-h2.banner-content-titles {
+.main-header .banner-content-titles {
     color: #fff;
     font-family: 'Playfair Display';
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
 }
-span.banner-p1 {
+.main-header .banner-p1 {
     color: #fff;
     font-family: 'Commissioner';
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
 }
+
 .main-header .header--items {
     color: #fff;
     font-family: 'Commissioner';
@@ -109,14 +103,7 @@ span.banner-p1 {
     padding: 0 10px;
     position: relative;
 }
-.main-header .main-header-menu-list-items:hover .drop-down--content  {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-    top: 100%;
-    left: 0;
-    transition: all 0.8s ease-in-out;
-}
+
 .main-header .login-btn {
     color: #fff;
     font-family: 'Commissioner';
@@ -138,6 +125,15 @@ span.banner-p1 {
     min-width: 1100px;
     visibility: hidden;
     opacity: 9;
+}
+.main-header .main-header-menu-list-items:hover .drop-down--content  {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+    left: 0;
+    transition: all 0.8s ease-in-out;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .main-header .drop-titles {
     font-size: 18px;
@@ -203,7 +199,7 @@ span.banner-p1 {
     margin-bottom: 70px;
     padding: 40px 0;
 }
-.hero-banner .banner-image {
+/* .hero-banner .banner-image {
     background-image: url('../image/index/b-banner.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -214,10 +210,34 @@ span.banner-p1 {
     position: absolute;
     top: 0;
     left: 0;
+} */
+.banner-image {
+    max-width: 50%;
+    flex: 50%;
+}
+.banner-contents.text-white {
+    max-width: 50%;
+    flex: 50%;
 }
 .hero-banner .b-icons {
     color: #fff;
     font-size: 22px;
+}
+.hero-banner .rigth-icon {
+    position: relative;
+}
+.hero-banner .rigth-icon::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(-49deg);
+    position: absolute;
+    top: 8px;
+    left: -10px;
 }
 .hero-banner .banner-button {
     display: flex;
@@ -1071,6 +1091,77 @@ p.product-para {
     position: relative;
     text-align: center;
 }
+
+/* ---------------accordion-------------- */
+.accordion {
+    margin-bottom: 60px;
+}
+
+.accordion .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+}
+.accordion .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    left: 39%;
+    top: 53%;
+}
+.accordion .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    right: 39%;
+    top: 53%;
+}
+.accordion .accordian-description {
+    text-align: center;
+    font-family: 'Commissioner';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #a2a6af;
+    margin-bottom: 45px;
+}
+.accordion .heading--main--title {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.accordion .accordian-bttn {
+    background: unset;
+}
+.accordion .accordian-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-family: 'Commissioner';
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
 
 
 

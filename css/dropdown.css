@@ -1,0 +1,70 @@
+
+
+
+
+.main-header .drop-down--content_two {
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    max-width: 855px;
+    min-width: 855px;
+    width: 100%;
+    margin: 0 auto;
+    visibility: hidden;
+    opacity: 9;
+}
+.main-header .main-header-menu-list-items:hover .drop-down--content_two  {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+    left: 0;
+    transition: all 0.8s ease-in-out;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.main-header .d-flex--wrap {
+    justify-content: space-between;
+}
+.main-header .drop-down_section_two {
+    max-width: 50%;
+    flex: 50%;
+}
+.main-header .drop-down_section {
+    max-width: 50%;
+    flex: 50%;
+}
+.main-header .drop-down--titles {
+    margin-bottom: 24px;
+}
+.main-header .drop-title {
+    font-size: 14px;
+}
+.main-header .drop-down-list-items {
+    padding: unset;
+}
+.main-header .drop-down-link {
+    display: flex;
+    color: #000;
+}
+.main-header .drop-down-link:hover {
+    color: blue;
+}
+.main-header .dropdown--icons {
+    max-width: 40px;
+    margin-right: 10px;
+    height: 100%;
+}
+.main-header .drop-titles {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
