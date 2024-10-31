@@ -28,11 +28,23 @@
     margin-bottom: 10px;
     padding: 0 10px;
     position: relative;
+    display: flex;
+    align-items: center;
 }
-.footer .footer-link-items:hover {
-    text-decoration: underline;
+.footer .f_icon {
+    font-size: 16px;
+    color: white;
+    margin-right: 8px;
+    outline: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
 }
-.footer .footer-link-items::before {
+/* .footer .footer-link-items::before {
     content: '';
     display: inline-block;
     width: 8px;
@@ -44,14 +56,14 @@
     position: absolute;
     top: 3px;
     left: -10px;
-    /* content: '▶';
+    content: '▶';
     font-size: 12px;
     margin-right: 8px;
     color: white;
     position: absolute;
     top: 0;
-    left: 0; */
-}
+    left: 0;
+} */
 .footer .footer--items {
     color: #fff;
     font-family: 'Commissioner';
@@ -160,7 +172,7 @@
     margin-bottom: 60px;
 }
 .footer select#cars {
-    border: navajowhite;
+    border: none;
     background: transparent;
     outline: none;
     color: #fff;
@@ -169,10 +181,21 @@
     font-weight: 400;
     line-height: 1.2;
 }
-.footer-selector {
+.footer .footer-selector {
     margin-bottom: 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
-
-
+.footer .selector-icon {
+    color: #fff;
+    margin-right: 10px;
+}
+.footer-drop-down{
+    display: flex;
+    align-items: center;
+}
 
 
