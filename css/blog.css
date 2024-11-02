@@ -1,0 +1,181 @@
+
+.blog_nav {
+    margin-bottom: 70px;
+}
+body {
+    background: #fbfbfb;
+}
+.blog_nav .blog-nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.blog_nav .blog_navigation-text-wrap {
+    margin-bottom: 45px ;
+}
+.blog_nav .blog-item {
+    color: #524f7a;
+    font-size: 16px;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+}
+.blog_nav .blog-nav-icons-wrap {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+}
+.blog_nav .blog_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 0 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.blog_nav .blog-item:hover {
+    color: #f74458;
+    transition: all 0.5s ease-in-out;
+}
+.blog_nav .blog-logo {
+    color: #524f7a;
+    font-size: 60px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    line-height: 1.2;
+}
+.blog_nav .blog-facebook-icon {
+    padding: 0 10px;
+    font-size: 20px;
+}
+.blog_nav .blog-para {
+    color: #524f7a;
+    font-size: 16px;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+}
+.blog_nav .blog-list-items {
+    padding: 15px 10px;
+}
+.blog_nav .bg_color {
+    color: #1e90ff;
+}
+.blog_nav .bg_color22 {
+    color: #000;
+}
+.blog_nav .bg_color_black {
+    color: #f74458;
+}
+
+/* ------------------blog-only-one-image------------------- */
+.blog-only-one-image {
+    /* margin-bottom: 70px; */
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto 70px;
+}
+.blog-only-one-image .blog-main-image {
+    max-width: 730px;
+    margin: 0 auto;
+}
+/* ----------------------.main_blog_content ------------------ */
+
+.main_blog_content {
+    margin-bottom: 70px;
+    position: relative;
+}
+.main_blog_content .blog_icons_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_blog_content .icon-with-scond-text {
+    display: flex;
+    align-items: center;
+}
+.main_blog_content .image-and-text-wrap {
+    display: flex;
+    align-items: center;
+}
+.main_blog_content .icon-with-genral-text-wrap {
+    display: flex;
+    align-items: center;
+}
+.main_blog_content .blog_icon_with_zero_text {
+    display: flex;
+    align-items: center;
+}
+.main_blog_content .blog_year{
+    display: flex;
+    align-items: center;
+}
+.main_blog_content .blog_content_wrapper {
+    background: white;
+    padding: 50px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.main_blog_content .blog_title {
+    color: #494766;
+    font-size: 50px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    line-height: 1.1;
+}
+.main_blog_content .years_blog {
+    font-size: 15px;
+    color: #494766;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main_blog_content .blog_time {
+    font-size: 15px;
+    color: #494766;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main_blog_content .blog-para {
+    font-size: 15px;
+    color: #494766;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main_blog_content .general-text {
+    font-size: 15px;
+    color: #494766;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main_blog_content .right--text {
+    font-size: 15px;
+    color: #f90606;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main_blog_content .blog-last-text {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main_blog_content .blog-hidden_content {
+    max-width: 150px;
+    padding: 13px 16px;
+    cursor: pointer;
+    background: #4d4976;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
