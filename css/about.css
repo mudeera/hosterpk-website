@@ -1,0 +1,164 @@
+
+
+
+
+.hero-banner {
+    background: #1e90ff;
+    padding: 80px 0;
+}
+.hero-banner .banner--titles.text-white {
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.hero-banner .banner_para.text-white {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+}
+/* ----------------.about-content ------------------- */
+.about-content {
+    margin-bottom: 100px;
+}
+.about-content .about-content-title {
+    color: #524f7a;
+    font-size: 22px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.about-content .para1 {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.about-content .p {
+    color: #524f7a;
+    font-size: 17px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+.about-content .para--p {
+    padding-left: 28px;
+}
+.about-content .para1 {
+    list-style: disc;
+}
+/* ---------------------------------------------- */
+.accordion {
+    margin-bottom: 60px;
+}
+.accordion .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.accordion .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+}
+.accordion .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    left: 40%;
+    top: 53%;
+}
+.accordion .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    right: 40%;
+    top: 53%;
+}
+.accordion .main-heading-title {
+    margin-bottom: 20px;
+}
+.accordion .heading--main--title {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.accordion .main-sect-mian-para {
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.accordion #headingOne {
+    margin-bottom: 13px;
+}
+.accordion .accordion-item {
+    margin-bottom: 30px;
+}
+.accordion .accordian-titile {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 13px;
+}
+.accordion .accordion-button {
+    outline: none;
+    background: none;
+    padding: 17px 7px;
+    width: 100%;
+    text-align: left;
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    border-color: #c1baba;
+}
+.accordion .accordion-body {
+    color: #686464;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

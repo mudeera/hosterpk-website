@@ -1,6 +1,7 @@
 
 .blog_nav {
     margin-bottom: 70px;
+    padding-top: 80px;
 }
 body {
     background: #fbfbfb;
@@ -26,6 +27,20 @@ body {
     display: flex;
     align-items: center;
     margin: 0 -10px;
+}
+.blog_nav .right_search_icon {
+    width: 50px;
+    height: 50px;
+    background: #e14343;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.12), 0 3px 14px rgba(0, 0, 0, 0.24);
+}
+.blog_nav .search-icon {
+    color: #fff;
 }
 .blog_nav .blog_list {
     display: flex;
@@ -62,6 +77,43 @@ body {
 }
 .blog_nav .blog-list-items {
     padding: 19px 10px;
+    position: relative;
+
+}
+.blog_nav .drop-down-menu {
+   display: none;
+   background-color: #ffffff;
+   padding: 15px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   position: absolute;
+   top: 100%;
+   right: 0;
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.8ms ease-in-out;
+}
+.blog_nav .blog-list-items:hover .drop-down-menu {
+   display: block;
+   top: 100%;
+   right: 0;
+   visibility: visible;
+   opacity: 9;
+   z-index: 9;
+   transition: all 0.8ms ease-in-out;
+}
+.blog_nav .mega_menu {
+    margin-bottom: 10px;
+}
+.blog_nav .mega--menu-blog {
+    font-size: 19px;
+    color: #a9a9a9;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.0;
+}
+.blog_nav .mega--menu-blog:hover {
+  color: #dd1515;
+  transition: all 0.8s ease-in-out;
 }
 .blog_nav .bg_color {
     color: #1e90ff;
@@ -112,6 +164,13 @@ body {
     cursor: pointer;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.30), 0 4px 3px rgba(0, 0, 0, 0.22);
 }
+.main_blog_content .general--guid-text-wrap {
+    display: flex;
+    align-items: center;
+}
+.main_blog_content .icon-with-genral-text-wrap:not(:last-child) {
+  margin-right: 24px;
+}
 .main_blog_content .blog_icon_with_zero_text {
     display: flex;
     align-items: center;
@@ -160,13 +219,17 @@ body {
     content: "";
     position: absolute;
     width: 100%;
-    height: 2px;
-    background-color: #00c7c7; /* Adjust color to match your design */
+    height: 5px;
+    background-color: #00c7c7;
     left: 0;
-    bottom: -2px; /* Adjust this value to set underline position */
-    transform: scaleX(0);
+    top: 45px;
+    transform: scaleY(0);
     transform-origin: right;
     transition: transform 0.3s ease;
+}
+.main_blog_content .blog_title:hover:after {
+    transform: scaleX(1);
+    transform-origin: top;
 }
 /* .main_blog_content .blog-heading-title:hover {
    text-decoration: underline;
@@ -279,22 +342,68 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
-.left-image {
+.main_blog_content .left-image {
     max-width: 120px;
     margin-right: 30px;
-    height: 126px;
+    height: 135px;
 }
-
-
-
-
-
-
-
-
-
-
-
+/* ---------------blog_pagination----------------- */
+.blog_pagination {
+    margin-bottom: 60px;
+}
+.blog_pagination .blog_paginat_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog_pagination .pagination-blog-page {
+    margin-right: 20px;
+}
+.blog_pagination .page-page {
+    font-size: 15px;
+    color: #a9a9a9;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+}
+.blog_pagination .go-next-page {
+    width: 60px;
+    height: 37px;
+    background: #dd1515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.blog_pagination .blog-next-page.secondary {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+}
+/* ---------------footer-blog------------ */
+.footer-blog {
+    margin-bottom: 50px;
+}
+.footer-blog .footer--titles {
+    color: #524f7a;
+    font-size: 60px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer-blog .f_copyright {
+    font-size: 17px;
+    color: #a9a9a9;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+}
 
 
 
