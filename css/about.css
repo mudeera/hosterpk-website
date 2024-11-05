@@ -145,6 +145,288 @@
     line-height: 1.2;
 }
 
+/* -------------about-contact-us------------------- */
+.about-contact-us {
+    margin-bottom: 70px;
+}
+.about-contact-us .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+}
+.about-contact-us .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    left: 42%;
+    top: 53%;
+}
+.about-contact-us .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    right: 42%;
+    top: 53%;
+}
+.about-contact-us .main-heading-title {
+    margin-bottom: 15px;
+}
+.about-contact-us .heading--main--title {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+.about-contact-us .main-sect-mian-para {
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+}
+.about-contact-us .main-section-headings {
+    margin-bottom: 24px;
+}
+.about-contact-us .about-product_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.about-contact-us .about-icons {
+    max-width: 55px;
+    height: 51px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 31%;
+    cursor: pointer;
+    margin: 0 auto 18px;
+    color: #fff;
+    font-size: 20px;
+}
+.about-contact-us .about_title {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.about-contact-us .about_pre-title {
+    text-align: center;
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    border-color: #c1baba;
+}
+.about-contact-us .product_contents {
+    background: #fff;
+    box-shadow: 0 5px 17px rgba(0, 0, 0, 0.12), 0 4px 6px rgba(0, 0, 0, 0.24);
+    padding: 30px;
+    border-radius: 15px;
+}
+/* ---------------------text-details------------------------ */
+.text-details {
+    background: #007aff;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.text-details .text-image-wrap {
+    display: flex;
+}
+.text-details .text-alpha {
+    max-width: 50%;
+    flex: 50%;
+}
+.text-details .text-beta {
+    max-width: 50%;
+    flex: 50%;
+}
+.text-details .text-title {
+    font-family: 'Playfair Display';
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #ffff;
+}
+.text-details .text-para1 {
+    font-family: 'Commissioner';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #ffff;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.text-details .p1 {
+    font-family: 'Commissioner';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+}
+.text-details .p1 {
+    font-family: 'Commissioner';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+    margin: 0 8px;
+}
+.text-details .para2 {
+    font-size: 23px;
+}
+.text-details .text-details-button {
+    width: 160px;
+    background: #ff7f50;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 16px 10px;
+}
+.text-details .details_btn {
+    color: #fff;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+/* ---------------------about-main-product------------------------ */
+.about-main-product {
+    margin-bottom: 70px;
+}
+.about-main-product .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+}
+.about-main-product .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    left: 43%;
+    top: 53%;
+}
+.about-main-product .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    right: 43%;
+    top: 53%;
+}
+.about-main-product .main-heading-title {
+    margin-bottom: 10px;
+}
+.about-main-product .heading--main--title {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+.about-main-product .main-sect-mian-para {
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+}
+.about-main-product .product_contents {
+    background: #fff;
+    box-shadow: 0 5px 17px rgba(0, 0, 0, 0.12), 0 4px 6px rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 33.33%;
+    flex: 33.33%;
+    margin-bottom: 24px;
+}
+.about-main-product .about-product_wrap {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: 0 -10px;
+}
+.product-bttn {
+    display: flex;
+    align-items: center;
+}
+.view-text {
+    margin-right: 8px;
+}
+.about-icons {
+    max-width: 55px;
+    height: 51px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 31%;
+    cursor: pointer;
+    margin: 0 auto 18px;
+    color: #fff;
+    font-size: 20px;
+}
+h3.about_title {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 12px;
+}
+p.about_pre-title {
+    text-align: center;
+    color: #c1baba;
+    font-family: 'Commissioner';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    border-color: #c1baba;
+    margin-bottom: 13px;
+}
+.view-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-section-headings {
+    margin-bottom: 25px;
+}
+.content--padding {
+    padding: 10px;
+}
 
 
 
