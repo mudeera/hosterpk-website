@@ -91,6 +91,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
+    margin-bottom: 24px;
 }
 .footer .f-cal-link {
     color: white;
@@ -192,10 +193,19 @@
 .footer .selector-icon {
     color: #fff;
     margin-right: 10px;
+    font-size: 22px;
 }
-.footer-drop-down{
+.footer .footer-drop-down{
     display: flex;
     align-items: center;
 }
-
-
+.footer .f--phone--icon {
+    display: flex;
+    align-items: center;
+}
+.footer .f--phone--icon:not(:last-child) {
+   margin-bottom: 12px;
+}
+.footer .f--phione-link {
+    margin-bottom: 40px;
+}

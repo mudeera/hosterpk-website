@@ -1,10 +1,9 @@
-
 /* ----------------banner----------------- */
 .hero-banner {
-    background: #007aff;
-    position: relative;
-    margin-bottom: 70px;
-    padding: 40px 0;
+  background: #007aff;
+  position: relative;
+  margin-bottom: 70px;
+  padding: 40px 0;
 }
 /* .hero-banner .banner-image {
     background-image: url('../image/index/b-banner.png');
@@ -19,32 +18,32 @@
     left: 0;
 } */
 .banner-image {
-    max-width: 50%;
-    flex: 50%;
+  max-width: 50%;
+  flex: 50%;
 }
 .banner-contents.text-white {
-    max-width: 50%;
-    flex: 50%;
+  max-width: 50%;
+  flex: 50%;
 }
 .hero-banner .b-icons {
-    color: #fff;
-    font-size: 22px;
+  color: #fff;
+  font-size: 22px;
 }
 .hero-banner .rigth-icon {
-    position: relative;
+  position: relative;
 }
 .hero-banner .f_icon {
-    font-size: 16px;
-    color: white;
-    margin-right: 8px;
-    outline: none;
-    border-radius: 50%;
-    width: 22px;
-    height: 21px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.2) !important;
+  font-size: 16px;
+  color: white;
+  margin-right: 8px;
+  outline: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2) !important;
 }
 /* .hero-banner .rigth-icon::before {
     content: '';
@@ -60,931 +59,1010 @@
     left: -10px;
 } */
 .hero-banner .banner-button {
-    display: flex;
-    align-items: center;
-    width: 220px;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 12px 15px;
-    background: rgb(225 108 15);
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 220px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 12px 15px;
+  background: rgb(225 108 15);
+  cursor: pointer;
 }
 .hero-banner .background-color--btn {
-    background-color: #fff;
+  background-color: #fff;
 }
 .hero-banner .banner-button:not(:last-child) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 .hero-banner .pp {
-    color: #fff;
-    font-family: 'Commissioner';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #fff;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .hero-banner .pp1 {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .hero-banner .banner-btn {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .hero-banner .banner-content-para {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .hero-banner .text-color {
-    color: #000;
+  color: #000;
 }
 /* ---------------main-section-------------------- */
 .main-section {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 .main-section .main-section-headings {
-    margin-bottom: 40px;
-    text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .main-section .main-heaading-pree-titles {
-    color: #0000ff;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    position: relative;
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
 }
 .main-section .main-heaading-pree-titles::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    left: 40%;
-    top: 53%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  left: 40%;
+  top: 53%;
 }
 .main-section .main-heaading-pree-titles::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    right: 40%;
-    top: 53%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  right: 40%;
+  top: 53%;
 }
 .main-section .main-sect-mian-para {
-    color: #c1baba;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #c1baba;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .main-section .heading--main--title {
-    color: #000;
-    font-family: 'Playfair Display';
-    font-size: 51px;
-    font-weight: 600;
-    line-height: 1.2;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 .main-section .card--title {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 12px;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 12px;
 }
 .main-section .card-yar {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 1.6;
-    opacity: 0.5;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  opacity: 0.5;
 }
 .main-section .card-prices {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-right: 6px;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-right: 6px;
 }
 .main-section .card-text {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .main-section .main--card_button {
-    background-color: #c1c8cf;
-    padding: 16px 10px;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
+  background-color: #c1c8cf;
+  padding: 16px 10px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
 }
 .main-section .main--card_button:hover {
-    background-color: #3d91e5;
-    transition: all 0.8s ease-in-out;
+  background-color: #3d91e5;
+  transition: all 0.8s ease-in-out;
 }
 /* .main-section .main--card_button:not(:last-child) {
    margin-right: 10px;
 } */
 .main-section .card_btn_text {
-    color: #fff;
-    font-family: 'Commissioner';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #fff;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .card_svg_content_wrap {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }
-.main-section .main-section-main-card{
-    display: flex;
-    align-items: center;
+.main-section .main-section-main-card {
+  display: flex;
+  align-items: center;
 }
 .main-section .card--price {
-    display: flex;
-    margin-bottom: 12px;
+  display: flex;
+  margin-bottom: 12px;
 }
 .main-section .card--list-link-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
 }
 .main-section .card-svg {
-    max-width: 50px;
-    width: 50px;
-    border: 1px solid #000;
-    border-radius: 50%;
-    padding: 10px;
-    opacity: 0.5;
-    margin-bottom: 21px;
+  max-width: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 10px;
+  opacity: 0.5;
+  margin-bottom: 21px;
 }
 .main-section .card-body--content {
-    max-width: 25%;
-    flex: 25%;
-    background-color: #fff;
-    /* background-image: linear-gradient(115deg, #fc00ff, #00dbde); */
-    border: 1px solid #edede7;
-    padding: 20px;
-    border-radius: 15px;
-    margin-right: 18px;
+  max-width: 25%;
+  flex: 25%;
+  background-color: #fff;
+  /* background-image: linear-gradient(115deg, #fc00ff, #00dbde); */
+  border: 1px solid #edede7;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 18px;
 }
 .main-section .card-body--content:hover {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    animation: 3s spin linear infinite;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  animation: 3s spin linear infinite;
 }
 @keyframes spin {
-    from {
-      --angle: 0deg;
-    }
-    to {
-      --angle: 360deg;
-    }
+  from {
+    --angle: 0deg;
   }
+  to {
+    --angle: 360deg;
+  }
+}
 .main-section .card-icon {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 .main-section .card-list-items {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 /* ---------------main-second--section-------------------- */
 .main-second--section {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 .main-second--section .main-section-headings {
-    margin-bottom: 40px;
-    text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .main-second--section .main-heaading-pree-titles {
-    color: #0000ff;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    position: relative;
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
 }
 .main-second--section .main-heaading-pree-titles::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    left: 40%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 40%;
 }
 .main-second--section .main-heaading-pree-titles::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    right: 40%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 40%;
 }
 .main-second--section .main-sect-mian-para {
-    color: #c1baba;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #c1baba;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .main-second--section .heading--main--title {
-    color: #000;
-    font-family: 'Playfair Display';
-    font-size: 51px;
-    font-weight: 600;
-    line-height: 1.2;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 .main-second--section .card--title {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 22px;
-    font-weight: 700;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 22px;
+  font-weight: 700;
 }
 .main-second--section .card-yar {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 1.6;
-    opacity: 0.5;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  opacity: 0.5;
 }
 .main-second--section .card-prices {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-right: 6px;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-right: 6px;
 }
 .main-second--section .card-text {
-    color: #000;
-    font-family: 'Commissioner';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .main-second--section .main--card_button {
-    background-color: #0000ff;
-    padding: 14px 9px;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
-    max-width: 180px;
+  background-color: #0000ff;
+  padding: 14px 9px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  max-width: 180px;
 }
 .main-second--section .main--card_button:hover {
-    background-color: #b1c2d3;
-    transition: all 0.5s ease-in-out;
+  background-color: #b1c2d3;
+  transition: all 0.5s ease-in-out;
 }
 /* .main-section .main--card_button:not(:last-child) {
    margin-right: 10px;
 } */
 .main-second--section .card_btn_text {
-    color: #fff;
-    font-family: 'Commissioner';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #fff;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
-.main-second--section .main-section-main-card{
-    display: flex;
-    align-items: center;
+.main-second--section .main-section-main-card {
+  display: flex;
+  align-items: center;
 }
 .main-second--section .card--price {
-    display: flex;
-    margin-bottom: 12px;
+  display: flex;
+  margin-bottom: 12px;
 }
 .main-second--section .card--list-link-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
 }
 .main-second--section .card-svg {
-    max-width:40px;
-    margin-right: 14px;
+  max-width: 40px;
+  margin-right: 14px;
 }
 .main-second--section .card-body--content {
-    max-width: 33.33%;
-    flex: 33.33%;
-    background-color: #fff;
-    /* background-image: linear-gradient(115deg, #fc00ff, #00dbde); */
-    border: 1px solid #edede7;
-    padding: 20px;
-    border-radius: 15px;
-    margin-right: 18px;
+  max-width: 33.33%;
+  flex: 33.33%;
+  background-color: #fff;
+  /* background-image: linear-gradient(115deg, #fc00ff, #00dbde); */
+  border: 1px solid #edede7;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 18px;
 }
 .main-second--section .card-body--content:hover {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    animation: 3s spin linear infinite;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  animation: 3s spin linear infinite;
 }
 @keyframes spin {
-    from {
-      --angle: 0deg;
-    }
-    to {
-      --angle: 360deg;
-    }
+  from {
+    --angle: 0deg;
   }
+  to {
+    --angle: 360deg;
+  }
+}
 .main-second--section .card-icon {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 .main-second--section .card-list-items {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-
 
 /* -----------------section-services---------------- */
 .section-services {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 .section-services .services-alpha-beta-wrap {
-    display: flex;
-    padding: 0 10px;
+  display: flex;
+  padding: 0 10px;
 }
 .section-services .main-section-headings {
-    margin-bottom: 40px;
-    text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .section-services .main-heaading-pree-titles {
-    color: #0000ff;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    position: relative;
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
 }
 .section-services .main-heaading-pree-titles::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    right: 42%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 42%;
 }
 .section-services .main-heaading-pree-titles::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    left: 42%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 42%;
 }
 .section-services .heading--main--title {
-    color: #000;
-    font-family: 'Playfair Display';
-    font-size: 51px;
-    font-weight: 600;
-    line-height: 1.2;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 .section-services .main-sect-mian-para {
-    color: #6c6c7e;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #6c6c7e;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .section-services .services-button {
-    display: flex;
-    align-items: center;
-    border: 1px solid #a9a9a9;
-    padding: 18px 14px;
-    border-radius: 9px;
-    min-height: 84px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #a9a9a9;
+  padding: 18px 14px;
+  border-radius: 9px;
+  min-height: 84px;
 }
 .section-services .services-button:hover {
-    box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .section-services .services-button:hover .services-icons {
-    background-color: #5858ed;
-    visibility: visible;
-    opacity: 1;
-    color: #fff;
+  background-color: #5858ed;
+  visibility: visible;
+  opacity: 1;
+  color: #fff;
 }
 .section-services .services-button:not(:last-child) {
-   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .section-services .beta-content {
-    display: flex;
+  display: flex;
 }
 .section-services .beta-icon {
-    margin-right: 12px;
-    color: #0000ff;
+  margin-right: 12px;
+  color: #0000ff;
 }
 .section-services .server-alpha {
-    max-width: 300px;
-    flex: 300px;
-    margin-right: 40px;
+  max-width: 300px;
+  flex: 300px;
+  margin-right: 40px;
 }
 .section-services .services-beta {
-    flex: 1;
-    border: 1px solid #a9a9a9;
-    padding: 30px;
-    border-radius: 16px;
+  flex: 1;
+  border: 1px solid #a9a9a9;
+  padding: 30px;
+  border-radius: 16px;
 }
 .section-services .services-icons {
-    margin-right: 12px;
-    max-width: 47px;
-    width: 100%;
-    border: 1px solid #000;
-    border-radius: 50%;
-    padding: 10px;
-    opacity: 0.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #0000ff;
-    min-height: 46px;
+  margin-right: 12px;
+  max-width: 47px;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 10px;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0000ff;
+  min-height: 46px;
 }
 .section-services .services-heading {
-    color: #000;
-    font-family: 'Playfair Display';
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 18px;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 18px;
 }
 .section-services .beta-para {
-    font-family: 'Commissioner';
-    color: #6c6c7e;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  font-family: "Commissioner";
+  color: #6c6c7e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .section-services .servi-text {
-    font-family: 'Commissioner';
-    color: #6c6c7e;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.2;
+  font-family: "Commissioner";
+  color: #6c6c7e;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 /* -------------.feature-card ------------- */
 .feature-card {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 .feature-card .feature-wrapper {
-    background: #007aff;
-    padding: 60px 40px;
-    border-radius: 20px;
+  background: #007aff;
+  padding: 60px 40px;
+  border-radius: 20px;
 }
 .feature-card .feature-para {
-    font-family: 'Commissioner';
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  font-family: "Commissioner";
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .feature-card .feature-heading {
-    color: #fff;
-    font-family: 'Playfair Display';
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 18px;
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 18px;
 }
 /* ----------------new-plugin------------------ */
 .new-plugin {
-    margin-bottom: 70px;
-    background: #f9f7f7;
-    padding: 30px 0;
+  margin-bottom: 70px;
+  background: #f9f7f7;
+  padding: 30px 0;
 }
 .new-plugin .heading--main--title {
-    color: #000;
-    font-family: 'Playfair Display';
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 1.1;
-    margin-bottom: 10px;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 10px;
 }
 .new-plugin .main-section-headings {
-    margin-bottom: 40px;
-    text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .new-plugin .main-heaading-pree-titles {
-    color: #0000ff;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    position: relative;
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
 }
 .new-plugin .main-heaading-pree-titles::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    left: 43%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 43%;
 }
 .new-plugin .main-heaading-pree-titles::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    right: 43%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 43%;
 }
 .new-plugin .main-sect-mian-para {
-    color: #837d7d;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
 }
-.new-plugin .plugins_card_wrap{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.new-plugin .plugins_card_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .new-plugin .plugins-card {
-    padding: 24px 18px;
-    background: #fff;
-    border: 1px solid #d3d3d3;
-    max-width: 170px;
-    flex: 170px;
-    border-radius: 12px;
-    margin-bottom: 20px;
+  padding: 24px 18px;
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  max-width: 170px;
+  flex: 170px;
+  border-radius: 12px;
+  margin-bottom: 20px;
 }
 .new-plugin .plugins-card:hover {
-    box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .new-plugin .plugins-card:not(:last-child) {
-    margin-right: 17px;
+  margin-right: 17px;
 }
 /* -----------------main-description------------------ */
 .main-description {
-    margin-bottom: 70px;
-    padding: 30px 0;
-    background: #0000ff;
-    position: relative;
+  margin-bottom: 70px;
+  padding: 30px 0;
+  background: #0000ff;
+  position: relative;
 }
 .main-description .bg--image::before {
-    content: "";
-    background-image: url(../image/index/8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.06;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
+  content: "";
+  background-image: url(../image/index/8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.06;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 .main-description .main-descript-heading-wrap {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 .main-description .sescript-titles {
-    font-family: 'Playfair Display';
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 1.6;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.6;
 }
 .main-description .descript-pre-title {
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin: unset;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: unset;
 }
 /* ------------------main-product------------------------ */
 .main-product {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .main-product .descript-titles {
-    font-family: 'Playfair Display';
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 1.6;
-    color: #000;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #000;
 }
 .main-product .descript-pre-title {
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin: unset;
-    color: #000;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: unset;
+  color: #000;
 }
 .main-product .main-heaading-pree-titles {
-    color: #0000ff;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    position: relative;
-    text-align: center;
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
+  text-align: center;
 }
 .main-product .main-heaading-pree-titles::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    left: 40%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 40%;
 }
 .main-product .main-heaading-pree-titles::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    right: 40%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 40%;
 }
 .main-product-main-heading {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .product-main_image {
-    max-width: 446px;
+  max-width: 446px;
 }
 .main-product_icond {
-    max-width: 50px;
-    width: 100%;
-    border: 1px solid #000;
-    border-radius: 50%;
-    padding: 10px;
-    opacity: 0.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #0000ff;
-    background: #d3d3d3;
-    margin: 0 auto 12px;
+  max-width: 50px;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 10px;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0000ff;
+  background: #d3d3d3;
+  margin: 0 auto 12px;
 }
 
 h5.main_product-titles {
-    text-align: center;
-    font-family: 'Playfair Display';
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.6;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.6;
 }
 p.product-para {
-    max-width: 308px;
-    text-align: center;
-    font-family: 'Commissioner';
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: unset;
-    color: #c3b6b6;
+  max-width: 308px;
+  text-align: center;
+  font-family: "Commissioner";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: unset;
+  color: #c3b6b6;
 }
 .main_product-main_description {
-    margin-bottom: 24px;
-    text-align: center;
-    align-items: center;
-    justify-content: space-evenly;
+  margin-bottom: 24px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .justify---content {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 /* ---------------------text-details------------------------ */
 .text-details {
-    background: #007aff;
-    padding: 50px 0;
-    margin-bottom: 50px;
+  background: #007aff;
+  padding: 50px 0;
+  margin-bottom: 50px;
 }
 .text-details .text-image-wrap {
-    display: flex;
+  display: flex;
 }
 .text-details .text-alpha {
-    max-width: 50%;
-    flex: 50%;
+  max-width: 50%;
+  flex: 50%;
 }
 .text-details .text-beta {
-    max-width: 50%;
-    flex: 50%;
+  max-width: 50%;
+  flex: 50%;
 }
 .text-details .text-title {
-    text-align: center;
-    font-family: 'Playfair Display';
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 10px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
 }
 .text-details .text-para1 {
-    font-family: 'Commissioner';
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 1.2;
+  font-family: "Commissioner";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .text-details .p1 {
-    font-family: 'Commissioner';
-    font-size: 23px;
-    font-weight: 400;
-    line-height: 1.1;
-    color: #fff;
+  font-family: "Commissioner";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #fff;
 }
 .text-details .p1 {
-    font-family: 'Commissioner';
-    font-size: 23px;
-    font-weight: 400;
-    line-height: 1.1;
-    color: #fff;
-    margin: 0 8px;
+  font-family: "Commissioner";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #fff;
+  margin: 0 8px;
 }
 .text-details .para2 {
-    font-size: 23px;
+  font-size: 23px;
 }
 .text-details .text-details-button {
-    width: 160px;
-    background: #ff7f50;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding: 16px 10px;
+  width: 160px;
+  background: #ff7f50;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 16px 10px;
 }
 .text-details .details_btn {
-    color: #fff;
-    font-family: 'Commissioner';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: #fff;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 /* -----------------blog_section----------------- */
 .blog_section {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .blog_section .main-section-headings {
-    margin-bottom: 40px;
-    text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .blog_section .main-heaading-pree-titles::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    left: 43%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 43%;
 }
 .blog_section .main-heaading-pree-titles::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    right: 43%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 43%;
 }
 .blog_section .heading--main--title {
-    color: #000;
-    font-family: 'Playfair Display';
-    font-size: 51px;
-    font-weight: 600;
-    line-height: 1.2;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 .blog_section .card-body--content {
-    max-width: 33.33%;
-    flex: 33.33%;
-    background-color: #fff;
-    /* background-image: linear-gradient(115deg, #fc00ff, #00dbde); */
-    border: 1px solid #edede7;
-    padding: 20px;
-    border-radius: 15px;
-    margin-right: 18px;
+  max-width: 33.33%;
+  flex: 33.33%;
+  background-color: #fff;
+  /* background-image: linear-gradient(115deg, #fc00ff, #00dbde); */
+  border: 1px solid #edede7;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 18px;
 }
 .blog_section .card-body--content:hover {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    animation: 3s spin linear infinite;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  animation: 3s spin linear infinite;
 }
-.blog_section .main-section-main-card{
-    display: flex;
-    align-items: center;
+.blog_section .main-section-main-card {
+  display: flex;
+  align-items: center;
 }
 .blog_section .card--title {
-    font-family: 'Playfair Display';
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 10px;
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
 }
 .blog_section .card--title:hover {
-    color: #0000ff;
-    transition: all 0.5s ease-in-out;
+  color: #0000ff;
+  transition: all 0.5s ease-in-out;
 }
 .blog_section .blog-para {
-    font-family: 'Commissioner';
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 1.2;
-    color: #a2a6af;
+  font-family: "Commissioner";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #a2a6af;
 }
 .blog_section .main-heaading-pree-titles {
-    color: #0000ff;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    position: relative;
-    text-align: center;
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
+  text-align: center;
 }
 
 /* ---------------accordion-------------- */
 .accordion {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .accordion .main-heaading-pree-titles {
-    color: #0000ff;
-    font-family: 'Commissioner';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    position: relative;
-    text-align: center;
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
+  text-align: center;
 }
 .accordion .main-heaading-pree-titles::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    left: 39%;
-    top: 53%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  left: 39%;
+  top: 53%;
 }
 .accordion .main-heaading-pree-titles::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    right: 39%;
-    top: 53%;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  right: 39%;
+  top: 53%;
 }
 .accordion .accordian-description {
-    text-align: center;
-    font-family: 'Commissioner';
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 1.2;
-    color: #a2a6af;
-    margin-bottom: 45px;
+  text-align: center;
+  font-family: "Commissioner";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #a2a6af;
+  margin-bottom: 45px;
 }
 .accordion .heading--main--title {
-    text-align: center;
-    font-family: 'Playfair Display';
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 10px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
 }
 .accordion .accordian-bttn {
-    background: unset;
+  background: unset;
 }
 .accordion .accordian-title {
-    font-size: 16px;
-    margin-bottom: 12px;
-    font-family: 'Commissioner';
-    font-weight: 600;
-    line-height: 1.2;
-    color: #000;
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-family: "Commissioner";
+  font-weight: 600;
+  line-height: 1.2;
+  color: #000;
 }
 .accordian-body-wrap {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
+}
+
+/*                           payement options                   */
+/* styles.css */
+
+/* .payment-options-section {
+  max-width: 800px;
+} */
+
+.text-orange {
+  color: #ff7f11;
+}
+
+.text-dark-blue {
+  color: #333;
+  font-weight: bold;
+}
+
+.text-blue {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-blue:hover {
+  text-decoration: underline;
+}
+
+.small-text {
+  font-size: 0.9rem;
 }
 
 
+.icon {
+  font-size: 18px;
+}
 
+.icon-bank {
+  color: #ff7f11;
+}
 
+.icon-wallet {
+  color: #28a745;
+}
 
+.icon-card {
+  color: #007bff;
+}
 
+.icon-offline {
+  color: #ffb400;
+}
 
+.text-bold {
+  font-weight: bold;
+}
+.bank_payments,
+.wallet_icon,
+.credit-icon,
+.invoice-icon {
+  background: #ff7f11;
+  border-radius: 50%;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-bank,
+.icon-wallet,
+.icon-card,
+.icon-offline {
+  color: #fff;
+}
+.wallet_icon {
+  background: #28a745;
+}
 
+.credit-icon {
+  background: #007bff; /* Blue color for credit/debit card icon */
+}
 
+.invoice-icon {
+  background: #ffb400; /* Yellow color for offline payments icon */
+}
 
-
-
+@media (max-width: 768px) {
+  .payment-options-section {
+    padding: 15px;
+  }
+  .payment-methods-list {
+    font-size: 0.9rem;
+  }
+}
