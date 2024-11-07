@@ -636,6 +636,28 @@
   background: #0000ff;
   position: relative;
 }
+.main-description .main-description_content {
+  display: flex;
+  align-items: flex-start;
+}
+.main-description .description-icons {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 12px;
+  width: 103px;
+  height: 54px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-start-start-radius: 50% 10%;
+  border-start-end-radius: 20% 40%;
+  border-end-end-radius: 50% 10%;
+  border-end-start-radius: 20% 40%;
+}
+
+
 .main-description .bg--image::before {
   content: "";
   background-image: url(../image/index/8.jpg);
