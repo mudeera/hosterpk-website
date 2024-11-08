@@ -300,7 +300,7 @@
     display: flex;
     color: #000;
 }
-.main-header .drop-down-link:hover {
+.main-header .drop-down-link:hover .drop-titles {
     color: blue;
 }
 .main-header .drop-down_section {
