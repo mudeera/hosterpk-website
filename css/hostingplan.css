@@ -1,0 +1,375 @@
+
+
+.web-hosting-feature {
+    margin-bottom: 70px;
+}
+.web-contents-wrap {
+    flex-wrap: wrap;
+    align-items: center;
+}
+.web-cards {
+    max-width: 50%;
+    flex: 50%;
+}
+.feature-horizontal {
+    display: flex;
+}
+.row-first {
+    max-width: 475px;
+    flex: 475px;
+}
+.row-second {
+    flex: 1;
+}
+.heading-section {
+    margin-bottom: 20px;
+}
+h2.heading-title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* -----------------main-description------------------ */
+.main-description {
+    margin-bottom: 70px;
+    padding: 30px 0;
+    background: #0000ff;
+    position: relative;
+  }
+  .main-description .main-description_content {
+    display: flex;
+    align-items: flex-start;
+  }
+  .main-description .description-icons {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 12px;
+    width: 103px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-start-start-radius: 50% 10%;
+    border-start-end-radius: 20% 40%;
+    border-end-end-radius: 50% 10%;
+    border-end-start-radius: 20% 40%;
+  }
+  .main-description .bg--image::before {
+    content: "";
+    background-image: url(../image/index/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.06;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  .main-description .main-descript-heading-wrap {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .main-description .sescript-titles {
+    font-family: "Playfair Display";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  .main-description .descript-pre-title {
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: unset;
+}
+/* -------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ---------------------text-details------------------------ */
+.text-details {
+    background: #007aff;
+    padding: 50px 0;
+    margin-bottom: 50px;
+  }
+  .text-details .text-image-wrap {
+    display: flex;
+  }
+  .text-details .text-alpha {
+    max-width: 50%;
+    flex: 50%;
+  }
+  .text-details .text-beta {
+    max-width: 50%;
+    flex: 50%;
+  }
+  .text-details .text-title {
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .text-details .text-para1 {
+    font-family: "Commissioner";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .text-details .p1 {
+    font-family: "Commissioner";
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+  }
+  .text-details .p1 {
+    font-family: "Commissioner";
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+    margin: 0 8px;
+  }
+  .text-details .para2 {
+    font-size: 23px;
+  }
+  .text-details .text-details-button {
+    width: 160px;
+    background: #ff7f50;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 16px 10px;
+  }
+  .text-details .details_btn {
+    color: #fff;
+    font-family: "Commissioner";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+/* -------------------------- */
+
+
+
+/* -----------------blog_section----------------- */
+.blog_section {
+    margin-bottom: 50px;
+  }
+  .blog_section .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .blog_section .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 43%;
+  }
+  .blog_section .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 43%;
+}
+.blog_section .heading--main--title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.blog_section .card-body--content {
+    max-width: 33.33%;
+    flex: 33.33%;
+    background-color: #fff;
+    border: 1px solid #edede7;
+    border-radius: 15px;
+    margin-right: 18px;
+    padding: 24px;
+}
+.blog_section .card-body--content:hover .card_svg_content_wrap {
+    background: blue;
+    transform: scale(1.28);
+}
+.blog_section .card_svg_content_wrap {
+    max-width: 70px;
+    background: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    height: 70px;
+    color: #ffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+}
+/* .blog_section .card_svg_content_wrap:hover {
+    background: blue;
+} */
+.blog_section .card_svg_content_wrap::after {
+    content: "";
+    border: 1px solid #0000ff;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 20px;
+}
+  .blog_section img {
+    border-radius: 9px;
+  }
+  .blog_section .card-body--content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    animation: 3s spin linear infinite;
+  }
+  .blog_section .main-section-main-card {
+    display: flex;
+    align-items: center;
+  }
+  .blog_section .card--title {
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .blog_section .card--title:hover {
+    color: #0000ff;
+    transition: all 0.5s ease-in-out;
+  }
+  .blog_section .blog-para {
+    font-family: "Commissioner";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #a2a6af;
+  }
+  .blog_section .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+  }
+
+/* ----------------new-plugin------------------ */
+.new-plugin {
+    margin-bottom: 70px;
+    background: #f9f7f7;
+    padding: 30px 0;
+  }
+  .new-plugin .heading--main--title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .new-plugin .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .new-plugin .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .new-plugin .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 43%;
+  }
+  .new-plugin .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 43%;
+  }
+  .new-plugin .main-sect-mian-para {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .new-plugin .plugins_card_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .new-plugin .plugins-card {
+    padding: 24px 18px;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    max-width: 170px;
+    flex: 170px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  .new-plugin .plugins-card:hover {
+    box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .new-plugin .plugins-card:not(:last-child) {
+    margin-right: 17px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

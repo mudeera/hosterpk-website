@@ -670,8 +670,6 @@
   border-end-end-radius: 50% 10%;
   border-end-start-radius: 20% 40%;
 }
-
-
 .main-description .bg--image::before {
   content: "";
   background-image: url(../image/index/8.jpg);
@@ -817,7 +815,6 @@ p.product-para {
   flex: 50%;
 }
 .text-details .text-title {
-  text-align: center;
   font-family: "Playfair Display";
   font-size: 34px;
   font-weight: 600;
