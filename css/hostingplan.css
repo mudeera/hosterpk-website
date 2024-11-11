@@ -1,30 +1,197 @@
-
-
+/* ----------------banner----------------- */
+.hero-banner {
+    background: #007aff;
+    position: relative;
+    margin-bottom: 70px;
+    padding: 40px 0;
+  }
+  /* .hero-banner .banner-image {
+      background-image: url('../image/index/b-banner.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      opacity: 0.5;
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+  } */
+  .banner-image {
+    max-width: 50%;
+    flex: 50%;
+  }
+  .banner-contents.text-white {
+    max-width: 50%;
+    flex: 50%;
+  }
+  .hero-banner .b-icons {
+    color: #fff;
+    font-size: 22px;
+  }
+  .hero-banner .rigth-icon {
+    position: relative;
+  }
+  .hero-banner .f_icon {
+    font-size: 16px;
+    color: white;
+    margin-right: 8px;
+    outline: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2) !important;
+  }
+  /* .hero-banner .rigth-icon::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 8px;
+      border-right: 2px solid white;
+      border-bottom: 2px solid white;
+      transform: rotate(-49deg);
+      position: absolute;
+      top: 8px;
+      left: -10px;
+  } */
+  .hero-banner .banner-button {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 12px 15px;
+    background: rgb(225 108 15);
+    cursor: pointer;
+  }
+  .hero-banner .background-color--btn {
+    background-color: #fff;
+  }
+  .hero-banner .banner-button:not(:last-child) {
+    margin-right: 10px;
+  }
+  .hero-banner .pp {
+    color: #fff;
+    font-family: "Commissioner";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .hero-banner .pp1 {
+    color: #000;
+    font-family: "Commissioner";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .hero-banner .banner-btn {
+    display: flex;
+    align-items: center;
+  }
+  .hero-banner .banner-content-para {
+    margin-bottom: 10px;
+  }
+  .hero-banner .text-color {
+    color: #000;
+  }
+/* ---------------web-hosting-feature------------------------ */
 .web-hosting-feature {
     margin-bottom: 70px;
 }
-.web-contents-wrap {
+.web-hosting-feature .web-contents-wrap {
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 24px;
 }
-.web-cards {
+.web-hosting-featureul .feature-list-items {
+    padding: unset;
+}
+.web-hosting-feature .web-cards {
     max-width: 50%;
     flex: 50%;
-}
-.feature-horizontal {
     display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25), 0 6px 5px rgba(0, 0, 0, 0.22);
+    padding: 24px 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
 }
-.row-first {
+.web-hosting-feature .card_border_color_blue {
+   border-top: 4px solid #0000ff;
+}
+.web-hosting-feature .card_border_color_brown {
+   border-top: 4px solid #a52a2a;
+}
+.web-hosting-feature .card_border_color_darkbrown {
+   border-top: 4px solid #8b0000;
+}
+.web-hosting-feature .card_border_color_green {
+   border-top: 4px solid #008000;
+}
+.web-hosting-feature .feature-icons {
+    margin-right: 8px;
+    color: #0000ff;
+}
+.web-hosting-feature .feature--pp {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.web-hosting-feature .webcard-icon {
+    width: 40px;
+    height: 40px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.web-hosting-feature .card-icon-color-blue {
+    background-color: #0000ff;
+}
+.web-hosting-feature .card-icon-color-brown {
+    background-color: #a52a2a;
+}
+.web-hosting-feature .card-icon-color-chocolate {
+    background-color: #d2691e;
+}
+.web-hosting-feature .card-icon-color-darkgreen {
+    background-color: #006400;
+}
+.web-hosting-feature p.web-para {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: unset;
+}
+.web-hosting-feature .feature-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.web-hosting-feature .row-first {
     max-width: 475px;
     flex: 475px;
 }
-.row-second {
+.web-hosting-feature .row-second {
     flex: 1;
 }
-.heading-section {
+.web-hosting-feature .heading-section {
     margin-bottom: 20px;
 }
-h2.heading-title {
+.web-hosting-feature .heading-title {
     color: #000;
     font-family: "Playfair Display";
     font-size: 33px;
@@ -49,7 +216,7 @@ h2.heading-title {
     margin-right: 12px;
     width: 103px;
     height: 54px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(213 210 210 / 20%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,6 +225,10 @@ h2.heading-title {
     border-start-end-radius: 20% 40%;
     border-end-end-radius: 50% 10%;
     border-end-start-radius: 20% 40%;
+  }
+  .main-description .main-description_content:hover .description-icons {
+    transform: rotate3d(1, 1, 1, 45deg);
+    transition: all 0.5s ease-in-out;
   }
   .main-description .bg--image::before {
     content: "";
@@ -90,7 +261,130 @@ h2.heading-title {
     line-height: 1.2;
     margin: unset;
 }
-/* -------------------------------------- */
+/* ------------------hosting-feature-------------------- */
+.hosting-feature {
+    margin-bottom: 70px;
+}
+.hosting-feature .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+.hosting-feature .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .hosting-feature .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 43%;
+  }
+  .hosting-feature .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 43%;
+  }
+  .hosting-feature .main-sect-mian-para {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .hosting-feature .beta-content {
+    display: flex;
+}
+.hosting-feature .hosting-feature-images {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+}
+.hosting-feature .feature-card1 {
+    max-width: 33.33%;
+    flex: 33.33%;
+    background: #fff;
+    box-shadow: 0 11px 24px rgba(0, 0, 0, 0.25), 0 8px 8px rgba(0, 0, 0, 0.22);
+    padding: 26px;
+    margin: 0 10px;
+    border-radius: 20px;
+    position: relative;
+}
+.hosting-feature .feature-card1::after {
+    content: "";
+    width: 20px;
+    height: 80%;
+    transition: all ease-in-out 0.3s;
+    z-index: -1;
+    background: darkblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.hosting-feature .beta-para {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.hosting-feature .demo {
+    display: flex;
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.hosting-feature  {
+    color: #000;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.hosting-feature .beta-icon {
+    color: #0000ff;
+    margin-right: 8px;
+}
+.hosting-feature .services-heading {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #383636;
+    margin-bottom: 20px;
+}
+.hosting-feature .heading--main--title {
+    font-family: "Playfair Display";
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #383636;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -211,13 +505,14 @@ h2.heading-title {
     margin-right: 18px;
     padding: 24px;
 }
-.blog_section .card-body--content:hover .card_svg_content_wrap {
-    background: blue;
+.blog_section .card-body--content:hover .card_svg_content_wrap::after {
+    background: #0000ff;
     transform: scale(1.28);
+    transition: all 0.8s ease-in-out;
 }
 .blog_section .card_svg_content_wrap {
     max-width: 70px;
-    background: blue;
+    background: #0000ff;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -355,6 +650,20 @@ h2.heading-title {
   .new-plugin .plugins-card:hover {
     box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  @keyframes example {
+    0%   {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+    /* 25%  {background-color: yellow;}
+    50%  {background-color: blue;} */
+    100% {
+        translate: 0 0;
+        scale: 100% 1;
+    }
   }
   .new-plugin .plugins-card:not(:last-child) {
     margin-right: 17px;

@@ -66,6 +66,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
+    text-decoration: none;
 }
 .second--header .cal-text {
     color: #fff;
@@ -83,13 +84,13 @@
 .main-header .main-header-menu-list-items:hover {
    background-color: #007aff;
 }
-.main-header .header--items {
+/* .main-header .header--items {
     color: #fff;
     font-family: 'Commissioner';
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
-}
+} */
 .main-header .login-button {
     width: 170px;
     height: 40px;
@@ -111,6 +112,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
+    text-decoration: none;
 }
 .main-header .drop-down--content {
     background-color: #ffffff;

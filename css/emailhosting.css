@@ -1,0 +1,99 @@
+.emailhosting .main-section-main-card {
+    flex-wrap: wrap;
+  }
+  .product-wrapper {
+    position: relative;
+  }
+  .mail-image {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .main-product-mainn_contents {
+    position: absolute;
+  }
+  .main-product-card1 {
+    bottom: 95%;
+    left: -3%;
+  }
+  .main-product-card2 {
+    bottom: 95%;
+    right: 0%;
+  }
+  .main-product-card3 {
+    bottom: -6%;
+    left: -6%;
+  }
+  .main-product-card4 {
+    bottom: -6%;
+    right: -6%;
+  }
+  .main-product-card5 {
+    bottom: -110%;
+    left: -3%;
+  }
+  .main-product-card6 {
+    bottom: -110%;
+    right: -3%;
+  }
+  .main-product .main-product-mainn_contents {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    width: 399px;
+    height: 190px;
+  }
+  .mail-blog .main-section-main-card {
+    flex-wrap: wrap;
+  }
+  .main-second--section .main-heaading-pree-titles::before {
+    left: 28%;
+  }
+  .main-second--section .main-heaading-pree-titles::after {
+    right: 28%;
+  }
+  
+  /* -----------------------administrative features----------------- */
+  .feature-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .feature-highlight {
+    color: #0066cc;
+  }
+  
+  .feature-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .feature-list {
+    list-style-type: none;
+    padding-left: 0;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .feature-list li {
+    margin-bottom: 10px;
+  }
+  
+  .feature-list li::before {
+    content: "✔";
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .feature-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .adminitrative-display {
+    align-items: center;
+  }
+  
+  
