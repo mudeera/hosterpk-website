@@ -1,4 +1,7 @@
 
+
+
+
 /* ---------------web-hosting-feature------------------------ */
 .web-hosting-feature {
     margin-bottom: 70px;
@@ -98,6 +101,108 @@
     font-size: 33px;
     font-weight: 600;
     line-height: 1.2;
+}
+/* ---------------hosting_plan_products----------------- */
+.hosting_plan_products {
+    margin-bottom: 70px;
+}
+.hosting_plan_products .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .hosting_plan_products .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .hosting_plan_products .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 44%;
+  }
+  .hosting_plan_products .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 44%;
+  }
+  .hosting_plan_products .main-sect-mian-para {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+.hosting_plan_products .cards-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+.hosting_plan_products .product-alpha-beta-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hosting_plan_products .hosting_plan_products-alpha {
+    flex: 1;
+}
+.hosting_plan_products .hosting_plan_products_beta {
+    max-width: 450px;
+    flex: 450px;
+}
+.hosting_plan_products .card1 {
+    max-width: 50%;
+    flex: 50%;
+    background: #fff;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25), 0 6px 5px rgba(0, 0, 0, 0.22);
+    margin-bottom: 15px;
+    padding: 28px;
+    border-radius: 10px;
+}
+.hosting_plan_products .card1-title {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #383636;
+    margin-bottom: 7px;
+}
+.hosting_plan_products .first-para {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.hosting_plan_products .card1-p {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.hosting_plan_products .badge.bg-primary.mb-2 {
+    border-radius: 10px;
+    padding: 5px 9px;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Commissioner";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.1;
 }
 /* ------------------hosting-feature-------------------- */
 .hosting-feature {
@@ -329,15 +434,15 @@
     position: relative;
     text-align: center;
   }
-/* ---------------hosting_plan_products----------------- */
-.hosting_plan_products {
+/* ------------------faq_section------------------- */
+.faq_section {
     margin-bottom: 70px;
 }
-.hosting_plan_products .main-section-headings {
+.faq_section .main-section-headings {
     margin-bottom: 40px;
     text-align: center;
   }
-  .hosting_plan_products .main-heaading-pree-titles {
+.faq_section .main-heaading-pree-titles {
     color: #0000ff;
     font-family: "Commissioner";
     font-size: 18px;
@@ -345,92 +450,69 @@
     line-height: 1.2;
     margin-bottom: 8px;
     position: relative;
-  }
-  .hosting_plan_products .main-heaading-pree-titles::before {
+}
+  .faq_section .main-heaading-pree-titles::before {
     content: "";
     position: absolute;
     width: 30px;
     height: 2px;
     background-color: #ff7f50;
     top: 55%;
-    left: 44%;
+    left: 43%;
   }
-  .hosting_plan_products .main-heaading-pree-titles::after {
+  .faq_section .main-heaading-pree-titles::after {
     content: "";
     position: absolute;
     width: 30px;
     height: 2px;
     background-color: #ff7f50;
     top: 55%;
-    right: 44%;
+    right: 43%;
   }
-  .hosting_plan_products .main-sect-mian-para {
-    color: #837d7d;
-    font-family: "Commissioner";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-  }
-.hosting_plan_products .cards-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: -15px;
-}
-.hosting_plan_products .product-alpha-beta-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.hosting_plan_products .hosting_plan_products-alpha {
-    flex: 1;
-}
-.hosting_plan_products .hosting_plan_products_beta {
-    max-width: 450px;
-    flex: 450px;
-}
-.hosting_plan_products .card1 {
-    max-width: 50%;
-    flex: 50%;
-    background: #fff;
-    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25), 0 6px 5px rgba(0, 0, 0, 0.22);
-    margin-bottom: 15px;
-    padding: 28px;
-    border-radius: 10px;
-}
-.hosting_plan_products .card1-title {
+  .faq_section .faq-para {
+    color: #000;
     font-family: "Playfair Display";
-    font-size: 20px;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.faq_section .heading--main--title {
+    font-family: "Playfair Display";
+    font-size: 32px;
     font-weight: 600;
     line-height: 1.6;
     color: #383636;
-    margin-bottom: 7px;
+    margin: 0;
 }
-.hosting_plan_products .first-para {
+.faq_section .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+}
+.faq_section .main-sect-mian-para {
     color: #837d7d;
     font-family: "Commissioner";
     font-size: 18px;
     font-weight: 400;
     line-height: 1.2;
 }
-.hosting_plan_products .card1-p {
-    color: #837d7d;
-    font-family: "Commissioner";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
-}
-.hosting_plan_products .badge.bg-primary.mb-2 {
-    border-radius: 10px;
-    padding: 5px 9px;
-    cursor: pointer;
-    color: #fff;
-    font-family: "Commissioner";
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.1;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

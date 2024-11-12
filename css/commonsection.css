@@ -1,0 +1,303 @@
+
+
+
+
+/* ----------------banner----------------- */
+.hero-banner {
+  background: #007aff;
+  position: relative;
+  margin-bottom: 70px;
+  padding: 40px 0;
+}
+.banner-image {
+  max-width: 50%;
+  flex: 50%;
+}
+.banner-contents.text-white {
+  max-width: 50%;
+  flex: 50%;
+}
+.hero-banner .b-icons {
+  color: #fff;
+  font-size: 22px;
+}
+.hero-banner .rigth-icon {
+  position: relative;
+}
+.hero-banner .f_icon {
+  font-size: 16px;
+  color: white;
+  margin-right: 8px;
+  outline: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+.hero-banner .banner-button {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 12px 15px;
+  background: rgb(225 108 15);
+  cursor: pointer;
+  text-decoration: none;
+}
+.hero-banner .background-color--btn {
+  background-color: #fff;
+}
+.hero-banner .banner-button:not(:last-child) {
+  margin-right: 10px;
+}
+.hero-banner .pp {
+  color: #fff;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.hero-banner .pp1 {
+  color: #000;
+  font-family: "Commissioner";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.hero-banner .banner-btn {
+  display: flex;
+  align-items: center;
+}
+.hero-banner .banner-content-para {
+  margin-bottom: 10px;
+}
+.hero-banner .text-color {
+  color: #000;
+}
+/* -----------------main-description------------------ */
+.main-description {
+    margin-bottom: 70px;
+    padding: 30px 0;
+    background: #0000ff;
+    position: relative;
+  }
+  .main-description .main-description_content {
+    display: flex;
+    align-items: flex-start;
+  }
+  .main-description .description-icons {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 12px;
+    width: 103px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-start-start-radius: 50% 10%;
+    border-start-end-radius: 20% 40%;
+    border-end-end-radius: 50% 10%;
+    border-end-start-radius: 20% 40%;
+  }
+  .main-description .bg--image::before {
+    content: "";
+    background-image: url(../image/index/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.06;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  .main-description .main-descript-heading-wrap {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .main-description .sescript-titles {
+    font-family: "Playfair Display";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  .main-description .descript-pre-title {
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: unset;
+  }
+/* ---------------------text-details------------------------ */
+.text-details {
+  background: #007aff;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.text-details .text-image-wrap {
+  display: flex;
+}
+.text-details .text-alpha {
+  max-width: 50%;
+  flex: 50%;
+}
+.text-details .text-beta {
+  max-width: 50%;
+  flex: 50%;
+}
+.text-details .text-title {
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.text-details .text-para1 {
+  font-family: "Commissioner";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.text-details .p1 {
+  font-family: "Commissioner";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #fff;
+}
+.text-details .p1 {
+  font-family: "Commissioner";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #fff;
+  margin: 0 8px;
+}
+.text-details .para2 {
+  font-size: 23px;
+}
+.text-details .text-details-button {
+  width: 160px;
+  background: #ff7f50;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 16px 10px;
+}
+.text-details .details_btn {
+  color: #fff;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* ----------------new-plugin------------------ */
+.new-plugin {
+  margin-bottom: 70px;
+  background: #f9f7f7;
+  padding: 30px 0;
+}
+.new-plugin .heading--main--title {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.new-plugin .main-section-headings {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.new-plugin .main-heaading-pree-titles {
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
+}
+.new-plugin .main-heaading-pree-titles::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 43%;
+}
+.new-plugin .main-heaading-pree-titles::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 43%;
+}
+.new-plugin .main-sect-mian-para {
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.new-plugin .plugins_card_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.new-plugin .plugins-card {
+  padding: 24px 18px;
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  max-width: 170px;
+  flex: 170px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.new-plugin .plugins-card:hover {
+  box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
+  transition: all 0.3s ease-in-out;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 2ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse; /* top to bottom bottom to top */
+}
+@keyframes example {
+0% {
+    transform: translateY(-11px);
+    transition: all 0.3s ease-in-out;
+}
+25% {
+    transform: translateY(19px);
+    transition: all 0.3s ease-in-out;
+}
+}
+.new-plugin .plugins-card:not(:last-child) {
+  margin-right: 17px;
+}
+
+
+
+
+
+
+
+
+  
