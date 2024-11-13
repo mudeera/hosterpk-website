@@ -1,0 +1,290 @@
+
+
+
+/* -----------------blog_section----------------- */
+.blog_section {
+    margin-bottom: 50px;
+  }
+  .blog_section .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .blog_section .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 43%;
+  }
+  .blog_section .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 43%;
+}
+.blog_section .heading--main--title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.blog_section .card-body--content {
+    max-width: 33.33%;
+    flex: 33.33%;
+    background-color: #fff;
+    border: 1px solid #edede7;
+    border-radius: 15px;
+    padding: 24px;
+    position: relative;
+    min-height: 297px;
+}
+.blog_section .card-body--content:not(:last-child) {
+    margin-right: 18px;
+}
+.blog_section .card-body--content:hover .card_svg_content_wrap::after {
+    background: #0000ff;
+    /* transform: scale(1.10); */
+    transition: all 0.8s ease-in-out;
+    color: white;
+    z-index: 999;
+}
+.blog_section .card_svg_content_wrap {
+    max-width: 60px;
+    min-width: 60px;
+    background: #0000ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    height: 60px;
+    color: #ffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -31px;
+    left: 14%;
+}
+.blog_section .card_svg_content2 {
+    background: #008000;
+}
+.blog_section .card_svg_content3 {
+    background: #ff6347;
+}
+/* .blog_section .card_svg_content_wrap:hover {
+    background: blue;
+} */
+.blog_section .card_svg_content_wrap::after {
+    content: "";
+    border: 1px solid #0000ff;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 20px;
+}
+  .blog_section img {
+    border-radius: 9px;
+  }
+  .blog_section .card-body--content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    animation: 3s spin linear infinite;
+  }
+  .blog_section .main-section-main-card {
+    display: flex;
+    align-items: center;
+  }
+  .blog_section .card--title {
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .blog_section .card--title:hover {
+    color: #0000ff;
+    transition: all 0.5s ease-in-out;
+  }
+  .blog_section .blog-para {
+    font-family: "Commissioner";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #808183;
+  }
+.blog_section .blog-card-content {
+    padding-top: 38px;
+}
+  .blog_section .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+  }
+  .blog_section .p_blog {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+
+
+
+
+/* ------------------faq_section------------------- */
+.faq_section {
+    margin-bottom: 70px;
+}
+.faq_section .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+.faq_section .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+}
+  .faq_section .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 44%;
+  }
+  .faq_section .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 44%;
+  }
+  .faq_section .faq-para {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.faq_section .heading--main--title {
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #383636;
+    margin: 0;
+}
+.faq_section .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+}
+.faq_section .main-sect-mian-para {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+/* -------------------wordpress-features-section------------------------ */
+.wordpress-features-section {
+    margin-bottom: 70px;
+}
+
+.wordpress-features-section .main-section-headings {
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .wordpress-features-section .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+}
+  .wordpress-features-section .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 41%;
+  }
+  .wordpress-features-section .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 41%;
+}
+.wordpress-features-section .heading--main--title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.wordpress-features-section .p_blog {
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+.wordpress-features-section .icon-wordpress {
+    background: blue;
+    max-width: 61px;
+    min-width: 61px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+
+
+

@@ -357,8 +357,10 @@
     background-color: #fff;
     border: 1px solid #edede7;
     border-radius: 15px;
-    margin-right: 18px;
     padding: 24px;
+}
+.blog_section .card-body--content:not(:last-child) {
+    margin-right: 18px;
 }
 .blog_section .card-body--content:hover .card_svg_content_wrap::after {
     background: #0000ff;
