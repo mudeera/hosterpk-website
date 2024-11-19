@@ -10,16 +10,15 @@
   padding: 40px 0;
 }
 .banner-image {
-  max-width: 50%;
-  flex: 50%;
+  max-width: 450px;
+  flex: 450px;
 }
 .banner-contents.text-white {
-  max-width: 50%;
-  flex: 50%;
+  flex: 1;
 }
 .hero-banner .b-icons {
   color: #fff;
-  font-size: 22px;
+  font-size: 18px;
 }
 .hero-banner .rigth-icon {
   position: relative;
@@ -294,7 +293,106 @@
 }
 
 
-
+/* ---------------web-hosting-feature------------------------ */
+.web-hosting-feature {
+  margin-bottom: 70px;
+}
+.web-hosting-feature .web-contents-wrap {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.web-hosting-featureul .feature-list-items {
+  padding: unset;
+}
+.web-hosting-feature .web-cards {
+  max-width: 50%;
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25), 0 6px 5px rgba(0, 0, 0, 0.22);
+  padding: 24px 20px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.web-hosting-feature .card_border_color_blue {
+ border-top: 4px solid #0000ff;
+}
+.web-hosting-feature .card_border_color_brown {
+ border-top: 4px solid #a52a2a;
+}
+.web-hosting-feature .card_border_color_darkbrown {
+ border-top: 4px solid #8b0000;
+}
+.web-hosting-feature .card_border_color_green {
+ border-top: 4px solid #008000;
+}
+.web-hosting-feature .feature-icons {
+  margin-right: 8px;
+  color: #0000ff;
+}
+.web-hosting-feature .feature--pp {
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+.web-hosting-feature .webcard-icon {
+  width: 40px;
+  height: 40px;
+  background: rebeccapurple;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.web-hosting-feature .card-icon-color-blue {
+  background-color: #0000ff;
+}
+.web-hosting-feature .card-icon-color-brown {
+  background-color: #a52a2a;
+}
+.web-hosting-feature .card-icon-color-chocolate {
+  background-color: #d2691e;
+}
+.web-hosting-feature .card-icon-color-darkgreen {
+  background-color: #006400;
+}
+.web-hosting-feature p.web-para {
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: unset;
+}
+.web-hosting-feature .feature-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.web-hosting-feature .row-first {
+  max-width: 475px;
+  flex: 475px;
+}
+.web-hosting-feature .row-second {
+  flex: 1;
+}
+.web-hosting-feature .heading-section {
+  margin-bottom: 20px;
+}
+.web-hosting-feature .heading-title {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 1.2;
+}
 
 
 

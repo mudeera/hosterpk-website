@@ -1,0 +1,21 @@
+
+
+
+.new-plugin .plugins-card {
+    display: flex;
+    align-items: center;
+}
+.new-plugin .text-one {
+    margin-left: 10px;
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+
+
+
+
+
