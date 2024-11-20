@@ -1,0 +1,157 @@
+
+
+
+.new-plugin .plugins-card {
+    display: flex;
+    align-items: center;
+}
+.new-plugin .text-one {
+    margin-left: 10px;
+    color: #837d7d;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* -------------.feature-card ------------- */
+.feature-card {
+    margin-bottom: 70px;
+  }
+  .feature-card .feature-wrapper {
+    background: #007aff;
+    padding: 60px 40px;
+    border-radius: 20px;
+  }
+  .feature-card .feature-para {
+    font-family: "Commissioner";
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .feature-card .feature-heading {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+
+/* ------------------hosting-feature-------------------- */
+.hosting-feature {
+  margin-bottom: 70px;
+}
+.hosting-feature .main-section-headings {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.hosting-feature .main-heaading-pree-titles {
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
+}
+.hosting-feature .main-heaading-pree-titles::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 43%;
+}
+.hosting-feature .main-heaading-pree-titles::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 43%;
+}
+.hosting-feature .main-sect-mian-para {
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.hosting-feature .beta-content {
+  display: flex;
+}
+.hosting-feature .hosting-feature-images {
+  display: flex;
+  align-items: center;
+  margin: 0 -10px;
+}
+.hosting-feature .feature-card1 {
+  max-width: 33.33%;
+  flex: 33.33%;
+  background: #fff;
+  box-shadow: 0 11px 24px rgba(0, 0, 0, 0.25), 0 8px 8px rgba(0, 0, 0, 0.22);
+  padding: 26px;
+  margin: 0 10px;
+  border-radius: 20px;
+  position: relative;
+}
+.hosting-feature .feature-card1::after {
+  content: "";
+  width: 20px;
+  height: 80%;
+  transition: all ease-in-out 0.3s;
+  z-index: -1;
+  background: darkblue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.hosting-feature .beta-para {
+  color: #000;
+  font-family: 'Commissioner';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.hosting-feature .demo {
+  display: flex;
+  color: #000;
+  font-family: 'Commissioner';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.hosting-feature  {
+  color: #000;
+  font-family: 'Commissioner';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.hosting-feature .beta-icon {
+  color: #0000ff;
+  margin-right: 8px;
+}
+.hosting-feature .services-heading {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #383636;
+  margin-bottom: 20px;
+}
+.hosting-feature .heading--main--title {
+  font-family: "Playfair Display";
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #383636;
+  margin: 0;
+}
+
+

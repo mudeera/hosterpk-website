@@ -1,5 +1,6 @@
 .emailhosting .main-section-main-card {
     flex-wrap: wrap;
+    margin: 0 -10px;
   }
   .product-wrapper {
     position: relative;

@@ -14,29 +14,6 @@
 .web-hosting-featureul .feature-list-items {
     padding: unset;
 }
-.web-hosting-feature .web-cards {
-    max-width: 50%;
-    flex: 50%;
-    display: flex;
-    align-items: center;
-    background: #fff;
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25), 0 6px 5px rgba(0, 0, 0, 0.22);
-    padding: 24px 20px;
-    border-radius: 20px;
-    margin-bottom: 15px;
-}
-.web-hosting-feature .card_border_color_blue {
-   border-top: 4px solid #0000ff;
-}
-.web-hosting-feature .card_border_color_brown {
-   border-top: 4px solid #a52a2a;
-}
-.web-hosting-feature .card_border_color_darkbrown {
-   border-top: 4px solid #8b0000;
-}
-.web-hosting-feature .card_border_color_green {
-   border-top: 4px solid #008000;
-}
 .web-hosting-feature .feature-icons {
     margin-right: 8px;
     color: #0000ff;
