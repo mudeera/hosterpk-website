@@ -126,7 +126,12 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: -15px;
+    margin: 0 -10px -15px;
+}
+.hosting_plan_products .cards_contents_wrap {
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 10px;
 }
 .hosting_plan_products .product-alpha-beta-wrap {
     display: flex;
@@ -141,8 +146,6 @@
     flex: 450px;
 }
 .hosting_plan_products .card1 {
-    max-width: 50%;
-    flex: 50%;
     background: #fff;
     box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25), 0 6px 5px rgba(0, 0, 0, 0.22);
     margin-bottom: 15px;

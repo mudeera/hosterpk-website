@@ -1,0 +1,43 @@
+
+
+// const nav = document.querySelector('main-header');
+// const header = document.querySelector('hero-banner');
+
+// const Option ={
+
+// }
+// const observer = new IntersectionObserver(entries => 
+// {
+//     entries.forEach(entries => {
+//         if (Entry.Intersecting) {
+//             nav.classList.remove('changcolor')
+//         }
+//         else{
+//             nav.classList.add('changcolor')
+//         }
+//     })
+// } ,Option)
+
+// observer.observe(hero-banner)
+
+
+const nav = document.querySelector('.main-header'); // Assuming it's a class
+const header = document.querySelector('.hero-banner'); // Assuming it's a class
+
+const options = {}; // Optional configurations can be added
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) { // Correct the property name
+            nav.classList.remove('changcolor');
+        } else {
+            nav.classList.add('changcolor');
+        }
+    });
+}, options);
+
+observer.observe(header); // Correct the variable name
+
+
+
+
