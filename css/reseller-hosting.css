@@ -1,0 +1,100 @@
+
+
+
+.main-services {
+    margin-bottom: 70px;
+}
+.main-services .main-services-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.main-services .main-product-mainn_contents{
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: 15px;
+    padding: 28px;
+    border-radius: 10px;
+    min-height: 228px;
+}
+.main-services .main-services-products {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 10px;
+}
+.main-services .main-product_icond {
+    max-width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-services .main_product-titles {
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main-services .product-para {
+    font-family: "Commissioner";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #a2a6af;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main-services .bttn-service {
+    text-align: center;
+    font-family: "Commissioner";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #0d6efd;
+}
+.main-services .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+}
+.main-services .main_product-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 43%;
+}
+.main-services .main_product-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 43%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

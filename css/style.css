@@ -261,6 +261,12 @@
 .main-second--section .main-section-main-card {
   display: flex;
   align-items: center;
+  margin: 0 -10px;
+}
+.main-second--section .card_body_content_wrapper {
+  padding: 0 10px;
+  max-width: 33.33%;
+  flex: 33.33%;
 }
 .main-second--section .card--price {
   display: flex;
@@ -605,12 +611,9 @@
   line-height: 1.2;
 }
 .blog_section .card-body--content {
-  max-width: 33.33%;
-  flex: 33.33%;
   background-color: #fff;
   border: 1px solid #edede7;
   border-radius: 15px;
-  margin-right: 18px;
 }
 .blog_section .blog-card-content {
   padding: 20px;
