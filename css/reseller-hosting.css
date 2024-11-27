@@ -23,6 +23,25 @@
     flex: 33.33%;
     padding: 0 10px;
 }
+.main-services .main-services-products:hover {
+    transition: all 0.3s ease-in-out;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-delay: 1ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse; /* top to bottom bottom to top */
+}
+@keyframes move {
+    0% {
+        transform: translateY(-11px);
+        transition: all 0.3s ease-in-out;
+    }
+    50% {
+        transform: translateY(19px);
+        transition: all 0.3s ease-in-out;
+    }
+}
 .main-services .main-product_icond {
     max-width: 42px;
     display: flex;
@@ -54,6 +73,10 @@
     line-height: 1.2;
     color: #0d6efd;
 }
+.main-services .main-section-headings {
+    text-align: center;
+    margin-bottom: 40px;
+}
 .main-services .main-heaading-pree-titles {
     color: #0000ff;
     font-family: "Commissioner";
@@ -62,8 +85,9 @@
     line-height: 1.2;
     margin-bottom: 8px;
     position: relative;
+    text-align: center;
 }
-.main-services .main_product-titles::before {
+.main-services .main-heaading-pree-titles::before {
     content: "";
     position: absolute;
     width: 30px;
@@ -72,7 +96,7 @@
     top: 55%;
     left: 43%;
 }
-.main-services .main_product-titles::after {
+.main-services .main-heaading-pree-titles::after {
     content: "";
     position: absolute;
     width: 30px;
@@ -81,12 +105,110 @@
     top: 55%;
     right: 43%;
 }
-
-
-
-
-
-
+.main-services .heading--main--title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.main-services .main-sect-mian-para {
+    color: #c1baba;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-services .main-product_icond {
+    color: #000;
+    background: blue;
+    border-start-start-radius: 50% 10%;
+    border-start-end-radius: 20% 40%;
+    border-end-end-radius: 50% 10%;
+    border-end-start-radius: 20% 40%;
+    padding: 10px;
+    margin: 0 auto 17px;
+}
+.main-services .bg-tomato {
+    background: #fb8c78;
+}
+.main-services .bg-green {
+    background: #2e8b57;
+}
+.main-services .bg-lightcoral {
+    background: #fb9c9c;
+}
+.main-services .bg-lightgreen {
+    background: #8be7e2;
+}
+.main-services .bg-khaki {
+    background: #dfd57d;
+}
+/* ---------------------text-details------------------------ */
+.text-details {
+    background: #007aff;
+    padding: 50px 0;
+    margin-bottom: 50px;
+  }
+  .text-details .text-image-wrap {
+    display: flex;
+  }
+  .text-details .text-alpha {
+    max-width: 50%;
+    flex: 50%;
+  }
+  .text-details .text-beta {
+    max-width: 50%;
+    flex: 50%;
+  }
+  .text-details .text-title {
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .text-details .text-para1 {
+    font-family: "Commissioner";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .text-details .p1 {
+    font-family: "Commissioner";
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+  }
+  .text-details .p1 {
+    font-family: "Commissioner";
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+    margin: 0 8px;
+  }
+  .text-details .para2 {
+    font-size: 23px;
+  }
+  .text-details .text-details-button {
+    width: 160px;
+    background: #ff7f50;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 16px 10px;
+  }
+  .text-details .details_btn {
+    color: #fff;
+    font-family: "Commissioner";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
 
 
 
