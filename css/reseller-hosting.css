@@ -303,6 +303,7 @@
     justify-content: center;
     height: 30px;
     cursor: pointer;
+    box-shadow: 0 6px 23px rgba(0, 0, 0, 0.12), 0 3px 16px rgba(0, 0, 0, 0.24);
 }
 .reseller-hosting .linked {
     list-style: disc;
@@ -348,8 +349,122 @@
         transition: all 0.3s ease-in-out;
     }
   }
-  .reseller-hosting .darksalmon-color {
+.reseller-hosting .darksalmon-color {
     background: #f3dddd;
     border: 1px solid #fb8c78;
     color: #fb8c78;
 }
+.reseller-hosting .bg--green {
+    background: #ced7ce;
+    border: 1px solid #008000;
+    color: #008000;
+}
+.reseller-hosting .bg--blue {
+    background: #ccd0d3;
+    border: 1px solid #1e90ff;
+    color: #1e90ff;
+}
+.reseller-hosting .bg--pink {
+    background: #d9d2d6;
+    border: 1px solid #ff69b4;
+    color: #ff69b4;
+}
+.reseller-hosting .bg--red {
+    background: #c3c0c0;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+/* ----=================about-hoster-pk===================== */
+.about-hoster-pk {
+    margin-bottom: 70px;
+}
+.about-hoster-pk .about-hoster-contents-wrap {
+    display: flex;
+    align-items: center;
+}
+.about-hoster-pk .main-section-headings {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-hoster-pk .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+}
+.about-hoster-pk .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 35%;
+}
+.about-hoster-pk .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 35%;
+}
+.about-hoster-pk .about-hoster-pk-list {
+    padding-left: 48px;
+}
+.about-hoster-pk .about-hoster-pk-list-items {
+    list-style: disc;
+    color: #9f9b9b;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.about-hoster-pk .para {
+    color: #c1baba;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.about-hoster-pk .about-list_items {
+    color: #9f9b9b;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
