@@ -1,0 +1,205 @@
+
+
+.main-services {
+    margin-bottom: 70px;
+}
+.main-services .main-services-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.main-services .main-product-mainn_contents{
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: 15px;
+    padding: 28px;
+    border-radius: 10px;
+    min-height: 228px;
+}
+.main-services .main-services-products {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 10px;
+}
+.main-services .main-services-products:hover {
+    transition: all 0.3s ease-in-out;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-delay: 1ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse; /* top to bottom bottom to top */
+}
+@keyframes move {
+    0% {
+        transform: translateY(-11px);
+        transition: all 0.3s ease-in-out;
+    }
+    50% {
+        transform: translateY(19px);
+        transition: all 0.3s ease-in-out;
+    }
+}
+.main-services .main-product_icond {
+    max-width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-services .main_product-titles {
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main-services .product-para {
+    font-family: "Commissioner";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #a2a6af;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main-services .bttn-service {
+    text-align: center;
+    font-family: "Commissioner";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #0d6efd;
+}
+.main-services .main-section-headings {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-services .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+}
+.main-services .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 43%;
+}
+.main-services .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 43%;
+}
+.main-services .heading--main--title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.main-services .main-sect-mian-para {
+    color: #c1baba;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.main-services .main-product_icond {
+    color: #000;
+    background: blue;
+    border-start-start-radius: 50% 10%;
+    border-start-end-radius: 20% 40%;
+    border-end-end-radius: 50% 10%;
+    border-end-start-radius: 20% 40%;
+    padding: 10px;
+    margin: 0 auto 17px;
+}
+.main-services .bg-tomato {
+    background: #fb8c78;
+}
+.main-services .bg-green {
+    background: #2e8b57;
+}
+.main-services .bg-lightcoral {
+    background: #fb9c9c;
+}
+.main-services .bg-lightgreen {
+    background: #8be7e2;
+}
+.main-services .bg-khaki {
+    background: #dfd57d;
+}
+/* ===============.domain-registration===================== */
+.domain-registration {
+    margin-bottom: 70px;
+}
+.domain-registration .main-section-headings {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.domain-registration .main-heaading-pree-titles {
+    color: #0000ff;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+}
+.domain-registration .main-heaading-pree-titles::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    left: 43%;
+}
+.domain-registration .main-heaading-pree-titles::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ff7f50;
+    top: 55%;
+    right: 43%;
+}
+.domain-registration .heading--main--title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.domain-registration .main-sect-mian-para {
+    color: #c1baba;
+    font-family: "Commissioner";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
