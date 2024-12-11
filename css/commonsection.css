@@ -19,6 +19,7 @@
 .hero-banner .b-icons {
   color: #fff;
   font-size: 18px;
+  height: 24px;
 }
 .hero-banner .rigth-icon {
   position: relative;
@@ -307,6 +308,8 @@
 }
 .web-hosting-feature .div {
   padding: 0 10px;
+  max-width: 50%;
+  flex: 50%;
 }
 .web-hosting-feature .web-cards {
   display: flex;
@@ -316,6 +319,7 @@
   padding: 24px 14px;
   border-radius: 20px;
   margin-bottom: 15px;
+  min-height: 116px;
 }
 .web-hosting-feature .card_border_color_blue {
  border-top: 4px solid #0000ff;
@@ -349,6 +353,7 @@
 }
 .web-hosting-feature .webcard-icon {
   width: 40px;
+  min-width: 40px;
   height: 40px;
   background: rebeccapurple;
   border-radius: 50%;
@@ -372,7 +377,7 @@
   background-color: #006400;
 }
 .web-hosting-feature p.web-para {
-  color: #837d7d;
+  color: #000;
   font-family: "Commissioner";
   font-size: 18px;
   font-weight: 400;
@@ -400,6 +405,9 @@
   font-size: 33px;
   font-weight: 600;
   line-height: 1.2;
+}
+.web-hosting-feature .text_primary {
+  color: #0000ff;
 }
 
 /* ------------------main-product------------------------ */
