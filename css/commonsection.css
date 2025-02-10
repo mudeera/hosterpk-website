@@ -418,7 +418,7 @@
 
 .main-product .descript-titles {
   font-family: "Playfair Display";
-  font-size: 50px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 1.6;
   color: #000;
@@ -429,7 +429,7 @@
   font-weight: 400;
   line-height: 1.2;
   margin: unset;
-  color: #000;
+  color: #c3b6b6;
 }
 .main-product .main-heaading-pree-titles {
   color: #0000ff;
@@ -489,7 +489,7 @@
   line-height: 1.6;
 }
 .main-product .product-para {
-  max-width: 308px;
+  max-width: 390px;
   text-align: center;
   font-family: "Commissioner";
   font-size: 17px;
