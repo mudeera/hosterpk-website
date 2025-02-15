@@ -101,6 +101,9 @@
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     animation: 3s spin linear infinite;
   }
+  .blog_section .card-body--content:hover i {
+    color: #ffffff;
+  }
   .blog_section .main-section-main-card {
     display: flex;
     align-items: center;
