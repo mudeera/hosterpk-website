@@ -39,6 +39,8 @@
 }
 .main-header .drop-down--titles {
     margin-bottom: 24px;
+    display: flex;
+    align-items: baseline;
 }
 .main-header .drop-title {
     font-size: 14px;
@@ -49,6 +51,7 @@
 .main-header .drop-down-link {
     display: flex;
     color: #000;
+    text-decoration: none;
 }
 .main-header .drop-down-link:hover {
     color: blue;
@@ -60,6 +63,7 @@
 }
 .main-header .drop-titles {
     font-size: 18px;
+    margin: 0;
 }
 
 

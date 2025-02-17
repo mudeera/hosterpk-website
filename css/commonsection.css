@@ -18,8 +18,8 @@
 }
 .hero-banner .b-icons {
   color: #fff;
-  font-size: 18px;
-  height: 24px;
+  /* font-size: 18px;
+  height: 24px; */
 }
 .hero-banner .rigth-icon {
   position: relative;
@@ -95,7 +95,7 @@
     margin-right: 12px;
     width: 103px;
     height: 54px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(195 191 191 / 20%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,16 +268,17 @@
   flex: 170px;
   border-radius: 12px;
   margin-bottom: 20px;
+  transition: transform 0.5s ease;
 }
 .new-plugin .plugins-card:hover {
   box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
-  transition: all 0.3s ease-in-out;
-  animation-name: example;
+  transform: translateY(10px);
+  /* animation-name: example;
   animation-duration: 3s;
   animation-delay: 2ms;
   animation-timing-function: linear;
   animation-iteration-count: 3;
-  animation-direction: alternate-reverse; /* top to bottom bottom to top */
+  animation-direction: alternate-reverse; top to bottom bottom to top */
 }
 @keyframes example {
 0% {
@@ -413,6 +414,7 @@
 /* ------------------main-product------------------------ */
 .main-product {
   margin-bottom: 60px;
+  overflow: hidden;
   /* height: 1221px; */
 }
 
@@ -505,13 +507,13 @@
   justify-content: space-evenly;
 }
 .main-product .main-product-mainn_contents:hover {
-  transition: all 0.3s ease-in-out;
-  animation-name: examples;
+  transform: translateY(10px);
+  /* animation-name: examples;
   animation-duration: 3s;
   animation-delay: 2ms;
   animation-timing-function: linear;
-  /* animation-iteration-count: 3; */
-  animation-direction: alternate-reverse; /* top to bottom bottom to top */
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse; top to bottom bottom to top */
 }
 @keyframes examples {
 0% {

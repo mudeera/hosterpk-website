@@ -388,6 +388,9 @@
   border-radius: 9px;
   min-height: 84px;
 }
+.section-services .services-buttonbg--color {
+  background: #5858ed;
+}
 .section-services .services-button:hover {
   box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -613,11 +616,15 @@
   background-color: #fff;
   border: 1px solid #edede7;
   border-radius: 15px;
+  min-height: 385px;
+}
+.blog_section .card-body--content:not(:last-child) {
+  margin-right: 19px;
 }
 .blog_section .blog-card-content {
-  padding: 20px;
+  padding: 12px;
 }
-.blog_section img {
+.blog_section .blog_section img {
   border-radius: 9px;
 }
 .blog_section .card-body--content:hover {
@@ -863,7 +870,7 @@
   background-color: #fff;
   max-width: 438px;
   position: absolute;
-  /* height: 190px; */
+  transition: all 0.5s ease;
 }
 .mail-blog .main-section-main-card {
   flex-wrap: wrap;
