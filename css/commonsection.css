@@ -268,27 +268,11 @@
   flex: 170px;
   border-radius: 12px;
   margin-bottom: 20px;
-  transition: transform 0.5s ease;
 }
 .new-plugin .plugins-card:hover {
   box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
   transform: translateY(10px);
-  /* animation-name: example;
-  animation-duration: 3s;
-  animation-delay: 2ms;
-  animation-timing-function: linear;
-  animation-iteration-count: 3;
-  animation-direction: alternate-reverse; top to bottom bottom to top */
-}
-@keyframes example {
-0% {
-    transform: translateY(-11px);
-    transition: all 0.3s ease-in-out;
-}
-25% {
-    transform: translateY(19px);
-    transition: all 0.3s ease-in-out;
-}
+  transition: all 0.8s ease;
 }
 .new-plugin .plugins-card:not(:last-child) {
   margin-right: 17px;
@@ -415,7 +399,7 @@
 .main-product {
   margin-bottom: 60px;
   overflow: hidden;
-  /* height: 1221px; */
+  height: 1114px;
 }
 
 .main-product .descript-titles {

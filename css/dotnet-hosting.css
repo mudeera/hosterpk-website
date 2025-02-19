@@ -3,126 +3,151 @@
 }
 /* -----------------blog_section----------------- */
 .blog_section {
-    margin-bottom: 50px;
-  }
-  .blog_section .main-section-headings {
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  .blog_section .main-heaading-pree-titles::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    left: 43%;
-  }
-  .blog_section .main-heaading-pree-titles::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 2px;
-    background-color: #ff7f50;
-    top: 55%;
-    right: 43%;
+  margin-bottom: 50px;
+}
+.blog_section .main-section-headings {
+  margin-bottom: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.blog_section .main-heaading-pree-titles::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 43%;
+}
+.blog_section .main-heaading-pree-titles::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 43%;
 }
 .blog_section .heading--main--title {
-    color: #000;
-    font-family: "Playfair Display";
-    font-size: 51px;
-    font-weight: 600;
-    line-height: 1.2;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
 }
-.blog_section .card-circle-wraped {
-    max-width: 33.33%;
-    flex: 33.33%;
-    background-color: #fff;
-    border: 1px solid #edede7;
-    border-radius: 15px;
-    padding: 24px;
-    transition: transform 0.8s ease;
+.blog_section .card-body--content {
+  max-width: 33.33%;
+  flex: 33.33%;
+  background-color: #fff;
+  border: 1px solid #edede7;
+  border-radius: 15px;
+  padding: 24px;
+  position: relative;
+  min-height: 297px;
+  transition: transform 0.8s ease;
 }
-.blog_section .card-circle-wraped:not(:last-child) {
-    margin-right: 18px;
+.blog_section .card-body--content:not(:last-child) {
+  margin-right: 18px;
 }
-.blog_section .card-body--content:hover .card_svg_content_wrap::after {
-    background: #0000ff;
-    transform: scale(1.28);
-    transition: transform 0.8s ease;
-    /* transition: all 0.8s ease-in-out; */
-    width: 100px;
-    height: 100px;
+.blog_section .card-body--content:hover .card_svg_content_wrap {
+  transform: scale(1.30);
+  transition: all 0.5s ease;
 }
 .blog_section .card_svg_content_wrap {
-    max-width: 60px;
-    background: #0000ff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    height: 60px;
-    color: #ffff;
-    cursor: pointer;
-    margin-bottom: 20px;
-    position: relative;
+  max-width: 60px;
+  min-width: 60px;
+  background: #0000ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  height: 60px;
+  color: #ffff;
+  cursor: pointer;
 }
-/* .blog_section .card_svg_content_wrap:hover {
-    background: blue;
-} */
-.blog_section .card_svg_content_wrap::after {
-    content: "";
-    border: 1px solid #0000ff;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    padding: 40px;
+.blog_section .card-body--content--wrapper {
+  border: 1px solid #0000ff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  margin-bottom: 20px;
+  background: #e8e8f5;
 }
-  .blog_section img {
-    border-radius: 9px;
-  }
-  .blog_section .card-circle-wraped:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    animation: 3s spin linear infinite;
-  }
-  .blog_section .main-section-main-card {
-    display: flex;
-    align-items: center;
-  }
-  .blog_section .card--title {
-    font-family: "Playfair Display";
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 10px;
-  }
-  .blog_section .card--title:hover {
-    color: #0000ff;
-    transition: all 0.5s ease-in-out;
-  }
-  .blog_section .blog-para {
-    font-family: "Commissioner";
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 1.2;
-    color: #a2a6af;
-  }
-  .blog_section .main-heaading-pree-titles {
-    color: #0000ff;
-    font-family: "Commissioner";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    position: relative;
-    text-align: center;
-  }
+.blog_section .card-body--content--wrapper-br-color2 {
+border: 1px solid #008000;
+}
+.blog_section .card-body--content--wrapper-br-color3 {
+border: 1px solid #ff6347;
+}
+.blog_section .card_svg_content_wrap__bg-color2 {
+background: #008000;
+}
+.blog_section .card_svg_content_wrap__bg-color3 {
+  background: #0000ff;
+}
+.blog_section .card_svg_content2 {
+  background: #008000;
+}
+.blog_section .card_svg_content3 {
+  background: #ff6347;
+}
+.blog_section img {
+  border-radius: 9px;
+}
+.blog_section .card-body--content:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  animation: 3s spin linear infinite;
+}
+.blog_section .card-body--content:hover i {
+  color: #ffffff;
+}
+.blog_section .main-section-main-card {
+  display: flex;
+  align-items: center;
+}
+.blog_section .card--title {
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.blog_section .card--title:hover {
+  color: #0000ff;
+  transition: all 0.5s ease-in-out;
+}
+.blog_section .blog-para {
+  font-family: "Commissioner";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #808183;
+}
+.blog_section .main-heaading-pree-titles {
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
+  text-align: center;
+}
+.blog_section .p_blog {
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  text-align: center;
+}
 /* ------------------hosting-feature-------------------- */
 .hosting-feature {
     margin-bottom: 70px;
@@ -237,4 +262,118 @@
     color: #383636;
     margin: 0;
 }
+
+
+/* ---------------hosting_plan_products----------------- */
+.hosting_plan_products {
+  margin-bottom: 70px;
+}
+.hosting_plan_products .main-section-headings {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.hosting_plan_products .main-heaading-pree-titles {
+  color: #0000ff;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
+}
+.hosting_plan_products .main-heaading-pree-titles::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  left: 44%;
+}
+.hosting_plan_products .main-heaading-pree-titles::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #ff7f50;
+  top: 55%;
+  right: 44%;
+}
+.hosting_plan_products .main-sect-mian-para {
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.hosting_plan_products .cards-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -10px -15px;
+}
+.hosting_plan_products .cards_contents_wrap {
+  max-width: 50%;
+  flex: 50%;
+  padding: 0 10px;
+}
+.hosting_plan_products .product-alpha-beta-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hosting_plan_products .hosting_plan_products-alpha {
+  flex: 1;
+}
+.hosting_plan_products .hosting_plan_products_beta {
+  max-width: 450px;
+  flex: 450px;
+}
+.hosting_plan_products .card1 {
+  background: #fff;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25), 0 6px 5px rgba(0, 0, 0, 0.22);
+  margin-bottom: 15px;
+  padding: 28px;
+  border-radius: 10px;
+}
+.hosting_plan_products .card1-title {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #383636;
+  margin-bottom: 7px;
+}
+.hosting_plan_products .first-para {
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.hosting_plan_products .card1-p {
+  color: #837d7d;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.hosting_plan_products .badge.bg-primary.mb-2 {
+  border-radius: 10px;
+  padding: 5px 9px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Commissioner";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+
+
+
+
+
+
 

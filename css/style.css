@@ -389,17 +389,22 @@
   min-height: 84px;
 }
 .section-services .services-buttonbg--color {
-  background: #5858ed;
+  background: #0f0fef;
 }
 .section-services .services-button:hover {
   box-shadow: 0 2px 11px rgba(0, 0, 7, 0.25), 0 2px 7px rgba(0, 0, 0, 0.22);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-.section-services .services-button:hover .services-icons {
-  background-color: #5858ed;
+.section-services .services-button:hover .services-bg-color {
   visibility: visible;
   opacity: 1;
-  color: #fff;
+  color: #ffffff;
+}
+.section-services .services-bg-color-white {
+  color: #ffffff;
+}
+.section-services .services-button:hover .services-icons {
+  background: #0808ad;
 }
 .section-services .services-button:not(:last-child) {
   margin-bottom: 20px;
@@ -433,7 +438,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #0000ff;
+  background-color: #b2a9eb;
   min-height: 46px;
 }
 .section-services .services-heading {
@@ -457,6 +462,9 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 1.2;
+}
+.section-services .services-text-color {
+  color: #ffffff;
 }
 /* -------------.feature-card ------------- */
 .feature-card {
